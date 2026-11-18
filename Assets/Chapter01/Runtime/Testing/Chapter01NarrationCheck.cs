@@ -48,11 +48,29 @@ namespace Chapter01.Runtime.Testing
                 Check(hall != null && hall.UseAuthoredLayout,"authored main hall loaded");
                 lab.enabled = false;
                 narrator = lab.GetComponent<FairyTaleNarrator>();
-                narrator.enabled = false;
-                Phase("title");
-                Check(lab.UI.CurrentView=="menu" && !narrator.Speaking,"the fresh session begins on the title screen");
+                Check(lab.UI.CurrentView=="prologue" && !narrator.Speaking,"the opening starts in darkness before the voice");
             } catch (Exception failure) {Finish(failure);}
             if (report.result=="FAIL")yield break;
+            var openingDeadline=Time.realtimeSinceStartup+35;
+            bool windAlone=false,voiceAndCaption=false,menuRevealed=false;
+            var curtain=(CanvasGroup)typeof(ShiyinUI).GetField("prologueCurtain",Member).GetValue(lab.UI);
+            var caption=(UnityEngine.UI.Text)typeof(ShiyinUI).GetField("prologueCaption",Member).GetValue(lab.UI);
+            var wind=curtain.GetComponent<AudioSource>();
+            while(lab.UI.CurrentView=="prologue" && Time.realtimeSinceStartup<openingDeadline) {
+                if(wind.isPlaying && wind.timeSamples>0 && !narrator.Speaking && curtain.alpha==1 && caption.text=="")windAlone=true;
+                if(narrator.CurrentId==FairyTaleNarrator.OpeningId && caption.text==narrator.CurrentSubtitle &&
+                   lab.Eye.GetComponents<AudioSource>().Any(s=>s.clip!=null && s.clip.name==FairyTaleNarrator.OpeningId && s.isPlaying && s.timeSamples>0))
+                    voiceAndCaption=true;
+                if(!narrator.Speaking && curtain.alpha>0 && curtain.alpha<.99f)menuRevealed=true;
+                yield return null;
+            }
+            try {
+                Check(windAlone && voiceAndCaption && menuRevealed && lab.UI.CurrentView=="menu",
+                    "wind precedes recorded opening speech and matching Chinese caption, then black fades to the title");
+                narrator.enabled=false;
+                Phase("title");
+            } catch(Exception failure){Finish(failure);}
+            if(report.result=="FAIL")yield break;
             // Use the real title and settings pages, which deliberately pause the hunt.
             var sound=lab.Eye.GetComponent<ShiyinAudio>();
             var title=sound.GetComponents<AudioSource>().SingleOrDefault(s=>s.clip!=null && s.clip.name=="Title_Veil");
@@ -91,7 +109,7 @@ namespace Chapter01.Runtime.Testing
                 CheckGuardian();
                 Phase("final battle");
                 CheckFinalBattle();
-                Check(report.events.Count == 18,"all eighteen approved non-cinematic events came from normal gameplay");
+                Check(report.events.Count == 17,"all seventeen approved non-cinematic events came from normal gameplay");
                 lab.UI.Dispatch("settings");
                 Check(!title.isPlaying && lab.UI.CurrentView=="settings","in-game settings keep the title arrangement silent");
                 lab.UI.Dispatch("back");
@@ -147,8 +165,9 @@ namespace Chapter01.Runtime.Testing
             Physics.SyncTransforms();
         }
         void CheckPassages() {
-            narrator.Advance(.01f); Cue("01_adventure");
-            narrator.Advance(narrator.LineDuration("01_adventure") + .1f);
+            narrator.Advance(.01f);
+            Check(narrator.CurrentId!=FairyTaleNarrator.OpeningId && !narrator.IsPending(FairyTaleNarrator.OpeningId),
+                "entering the playable hunt does not repeat the opening voice");
             foreach (var floor in new[]{hall.CourtyardNarrationFloor,hall.UpperBridgeNarrationFloor}) {
                 string id = floor == hall.CourtyardNarrationFloor ? "22_courtyard" : "23_upper_bridge";
                 Check(floor != null && hall.IsGround(floor),"a real authored ground collider owns " + id);

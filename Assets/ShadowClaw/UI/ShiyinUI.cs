@@ -409,4 +409,12 @@ public sealed partial class ShiyinUI : MonoBehaviour {
             SprintStamina01=Lab.SprintStamina01,SprintExhausted=Lab.SprintExhausted,
             RecoveryStatus=Lab.HunterHealth>0&&Lab.HunterHealth<100&&!Lab.Developer.HealthLocked&&!Lab.Finished ?
                 (Lab.Developer.Paused ? "回血已暂停" : Lab.Recovering ? "呼吸回血中" : "距回血 "+Lab.RecoveryRemaining.ToString("0.0")+"s") : "",
-            LowHealth=Lab.HunterHealth<=25
+            LowHealth=Lab.HunterHealth<=25,Frozen=Lab.Developer.Frozen,HealthLocked=Lab.Developer.HealthLocked,Hidden=Lab.Developer.HudHidden
+        };
+        Snapshot=snapshot;RefreshHud(snapshot);SetUiVisible(!snapshot.Hidden);
+        audioFeedback?.SetPaused(Lab.Developer.Paused);
+    }
+    void OnDestroy() {
+        if(Lab!=null){Lab.ShotResolved-=OnShotResolved;Lab.Developer.SetPauseReason("ui",false);}
+    }
+}

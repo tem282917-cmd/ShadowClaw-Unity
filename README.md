@@ -25,4 +25,4 @@ WASD 移动，鼠标瞄准，左键射击，R 装填，Shift 疾跑，空格跳�
 
 安装该编辑器版本的 Windows Build Support，在 **File → Build Profiles** 选择 Windows x86-64，在 Scene List 启用 `Chapter01_Main`，点击 **Build**。运行生成目录中的 `ShadowClaw.exe`。
 
-素材署名与来源见 `ThirdPartyNotices/`、`Assets/ShadowClaw/ThirdPart
+素材署名与来源见 `ThirdPartyNotices/`、`Assets/ShadowClaw/ThirdPartyNotices/` 和 `Assets/StreamingAssets/`。

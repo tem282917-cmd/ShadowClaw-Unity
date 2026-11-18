@@ -430,4 +430,9 @@ public sealed partial class ShiyinUI : MonoBehaviour
         float width=referenceWidth>0?referenceWidth:VReferenceWidth;
         if(vBossObject!=null)vBossObject.transform.localScale=Vector3.one*Mathf.Clamp((width-832)/660,.65f,1);
         if(vToastObject!=null) {
-            float toastWid
+            float toastWidth=Mathf.Clamp(width-912,240,900);
+            ((RectTransform)vToastObject.transform).sizeDelta=new Vector2(toastWidth,62);
+            vToast.rectTransform.sizeDelta=new Vector2(toastWidth-40,62);
+        }
+    }
+}

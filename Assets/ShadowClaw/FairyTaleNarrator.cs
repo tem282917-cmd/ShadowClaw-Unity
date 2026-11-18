@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public sealed class FairyTaleNarrator : MonoBehaviour
 {
     public const string GuardianRelicPickupId = "20_guardian_relic_pickup";
+    public const string OpeningId = "01_adventure";
     public const string DispersalId = "24_demon_dispersal";
     public const string CastleEndingId = "08_boss_defeated";
     public const string EpilogueId = "09_epilogue";
@@ -36,7 +37,7 @@ public sealed class FairyTaleNarrator : MonoBehaviour
     Line current;
     int partIndex;
     float remaining, gap;
-    bool paused, started, ending, endingSpeechComplete;
+    bool paused, opening, ending, endingSpeechComplete;
     public string CurrentId => current?.id;
     public string CurrentSubtitle => current == null ? "" : current.parts[partIndex].zh;
     public bool Speaking => current != null;
@@ -100,13 +101,15 @@ public sealed class FairyTaleNarrator : MonoBehaviour
         EndEnding();
         queue.Clear();
         gap = 0;
-        started = false;
+        opening = false;
         // A retry can replay interrupted teaching, but never repeats a completed line.
     }
-    internal void ReturnToFogGate() {
-        ResetNarration();
-        started=true;
+    internal void BeginOpening() {
+        paused=false;
+        opening=true;
+        Play(lines[OpeningId]);
     }
+    internal float SecondsLeftInPart => Mathf.Max(0,remaining);
     static int Priority(string id) {
         switch (id) {
             case "03_fire_thief": case "14_guardian_trial": case "17_final_blackout": case "18_final_relight":
@@ -117,7 +120,7 @@ public sealed class FairyTaleNarrator : MonoBehaviour
         }
     }
     public void Request(string id) {
-        if (lab == null || lab.Finished || ending || id == null ||
+        if (lab == null || lab.Finished || ending || id == null || id == OpeningId ||
             id == DispersalId || id == CastleEndingId || id == EpilogueId || !lines.TryGetValue(id, out var entry)) return;
         // Opposing cues can arrive even after an earlier tutorial has been heard.
         // Only withdraw unsaid, obsolete instructions. Let spoken sentences resolve.
@@ -175,6 +178,10 @@ public sealed class FairyTaleNarrator : MonoBehaviour
         if (lab == null || voice == null) return;
         voice.volume = lab.UI?.Settings.Narration ?? .85f;
         mix?.SetNarrationDucking(voice.isPlaying && voice.volume > 0);
+        if (opening) {
+            if (AdvanceSpeech(dt,useAudioClock)) { opening=false; StopLine(); }
+            return;
+        }
         // Ending pages own the same voice channel while the combat simulation is frozen.
         if (ending) {
             if (!endingSpeechComplete) endingSpeechComplete = AdvanceSpeech(dt, useAudioClock);
@@ -191,7 +198,6 @@ public sealed class FairyTaleNarrator : MonoBehaviour
             else voice.UnPause();
         }
         if (paused) return;
-        if (!started) { started = true; Request("01_adventure"); }
         gap = Mathf.Max(0, gap - dt);
         if (current != null && AdvanceSpeech(dt, useAudioClock)) {
             heard.Add(current.id);

@@ -34,4 +34,4 @@ foreach ($entry in $missing) {
     if (!(Matches $content $entry.Value.sha256)) { throw "Unexpected resource: $($entry.Name)" }
     Copy-Item -LiteralPath $content -Destination $file
 }
-Write-Output "Verified and restored $($files.Count) effect files.
+Write-Output "Verified and restored $($files.Count) effect files."

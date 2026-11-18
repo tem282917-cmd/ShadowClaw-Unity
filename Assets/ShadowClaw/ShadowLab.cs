@@ -763,4 +763,3 @@ public sealed partial class ShadowLab : MonoBehaviour
         } else if(state!=null)Sync();
     }
 }
- 
