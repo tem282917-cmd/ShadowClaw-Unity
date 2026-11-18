@@ -66,7 +66,7 @@ namespace Chapter01.Runtime.Testing
             }
             try {
                 Check(windAlone && voiceAndCaption && menuRevealed && lab.UI.CurrentView=="menu",
-                    "wind precedes recorded opening speech and matching Chinese caption, then black fades to the title");
+                    $"opening playback: wind={windAlone}, matching voice and caption={voiceAndCaption}, title fade={menuRevealed}, destination={lab.UI.CurrentView}");
                 narrator.enabled=false;
                 Phase("title");
             } catch(Exception failure){Finish(failure);}

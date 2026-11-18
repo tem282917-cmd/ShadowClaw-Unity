@@ -26,8 +26,8 @@ public sealed partial class ShiyinUI {
         prologueWind.clip=Resources.Load<AudioClip>("EnvironmentDynamics/WindWooshLoop");
     }
     void AdvancePrologue(float dt) {
-        // Let the engine splash finish before starting the audience's listening time.
-        if(!Application.isEditor && !UnityEngine.Rendering.SplashScreen.isFinished)return;
+        // Loading a large chapter can make the first frame longer than the wind lead.
+        dt=Mathf.Min(dt,.15f);
         if(prologueNarrator==null)prologueNarrator=Lab.GetComponent<FairyTaleNarrator>();
         if(prologueNarrator==null)return;
         if(prologueElapsed==0 && prologueWind.clip!=null)prologueWind.Play();
