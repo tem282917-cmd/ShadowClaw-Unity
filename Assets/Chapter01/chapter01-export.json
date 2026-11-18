@@ -1,0 +1,4368 @@
+{
+  "schema": "shadow.unity-model-export/v1",
+  "sourceBlendSha256": "ba1bd8abf4d1f085076faa04af16b683e7d678d8c4cfabe1065ee0bd9087005a",
+  "files": [
+    {
+      "category": "Architecture",
+      "path": "D:\\Shadow\\ShadowClaw\\Assets\\Chapter01\\Models\\Architecture\\Castle.fbx",
+      "assetPath": "Assets/Chapter01/Models/Architecture/Castle.fbx",
+      "meshObjects": 1310,
+      "uniqueMeshDatablocks": 68,
+      "uniqueSourceTriangles": 11342911,
+      "bytes": 752482844,
+      "sha256": "48a388ebf59f0113ff3de752e0aff56f8a1873d8421c2d34f8ba1c5f63f388d1"
+    },
+    {
+      "category": "Infrastructure",
+      "path": "D:\\Shadow\\ShadowClaw\\Assets\\Chapter01\\Models\\Infrastructure\\BridgeStairsTerrain.fbx",
+      "assetPath": "Assets/Chapter01/Models/Infrastructure/BridgeStairsTerrain.fbx",
+      "meshObjects": 1859,
+      "uniqueMeshDatablocks": 561,
+      "uniqueSourceTriangles": 6039681,
+      "bytes": 417576076,
+      "sha256": "639f9266a48a6797a855051aaa5809badb94eaca23c2a431f3d28cbf4f81493f"
+    },
+    {
+      "category": "Rocks",
+      "path": "D:\\Shadow\\ShadowClaw\\Assets\\Chapter01\\Models\\Rocks\\EnvironmentRocks.fbx",
+      "assetPath": "Assets/Chapter01/Models/Rocks/EnvironmentRocks.fbx",
+      "meshObjects": 642,
+      "uniqueMeshDatablocks": 20,
+      "uniqueSourceTriangles": 8820648,
+      "bytes": 581376876,
+      "sha256": "d76b05b1054c6302d582158be1b9d98c266a0dffe631dbe8ff1aa2a39ded7cbb"
+    },
+    {
+      "category": "Trees",
+      "path": "D:\\Shadow\\ShadowClaw\\Assets\\Chapter01\\Models\\Trees\\EnvironmentTrees.fbx",
+      "assetPath": "Assets/Chapter01/Models/Trees/EnvironmentTrees.fbx",
+      "meshObjects": 143,
+      "uniqueMeshDatablocks": 4,
+      "uniqueSourceTriangles": 976294,
+      "bytes": 77666044,
+      "sha256": "f2618382f89da57c418313f4805cab64ea24c5d55b2dd1bcce320c2bcaa2f03b"
+    },
+    {
+      "category": "Distant",
+      "path": "D:\\Shadow\\ShadowClaw\\Assets\\Chapter01\\Models\\Distant\\VillageBackdrop.fbx",
+      "assetPath": "Assets/Chapter01/Models/Distant/VillageBackdrop.fbx",
+      "meshObjects": 192,
+      "uniqueMeshDatablocks": 20,
+      "uniqueSourceTriangles": 5874022,
+      "bytes": 401777676,
+      "sha256": "ca2b63a19e184d1b34821331ec68fefa4e5e645d4c1651c39e990ac03a1c2a5e"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Designer_Logic_PBR.008",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_008_62892cbaff.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.685143768787384,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_008_7d331624d4.png",
+      "normalScale": 1.0,
+      "metallic": 0.0006981891683964306,
+      "metallicMeanBeforeNodeFactors": 0.006981891579926014,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_008_7d331624d4.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.685143768787384,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Local_Memorial_Support_Stone",
+      "baseColor": [
+        0.11999999731779099,
+        0.10499999672174454,
+        0.09000000357627869,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8700000047683716,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Road_Return_Ridge",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Road_Return_Ridge_base_40642d633f.png",
+      "normalTexture": "Assets/Chapter01/Textures/Road_Return_Ridge_normal_730796d392.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8515931963920593,
+      "roughnessTexture": "Assets/Chapter01/Textures/Road_Return_Ridge_orm_c771852fc8.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8515931963920593,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05c_bright_Designer_Logic_PBR.036",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_038_de382fa1c3.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05c_de56ec9c91.png",
+      "emissionColor": [
+        5.070000171661377,
+        5.070000171661377,
+        5.070000171661377,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6666458249092102,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "normalScale": 1.0,
+      "metallic": 0.006974961712583327,
+      "metallicMeanBeforeNodeFactors": 0.069749616086483,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6666458249092102,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.015",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_015_891e807936.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6857179403305054,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_015_ab4b9a7e98.png",
+      "normalScale": 1.0,
+      "metallic": 0.00011607053629786573,
+      "metallicMeanBeforeNodeFactors": 0.0011607053456827998,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_015_ab4b9a7e98.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6857179403305054,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Terrain_Rock_6m_Baked_PBR",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/rock-basecolor-2048_png_3603998dd2.png",
+      "normalTexture": "Assets/Chapter01/Textures/rock-normal-2048_png_77accc8ba0.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8999999761581421,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_A19_medium_Designer_Logic_PBR.037",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_039_9004f40ac5.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_A19_1ae0717ca7.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.721977174282074,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_037_9103599e99.png",
+      "normalScale": 1.0,
+      "metallic": 0.0066271522138588446,
+      "metallicMeanBeforeNodeFactors": 0.06627152115106583,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_037_9103599e99.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.721977174282074,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_0.009",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_050_53deecde58.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.9998617172241211,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_008_5d84a10e57.png",
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicMeanBeforeNodeFactors": 0.0,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_008_5d84a10e57.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.9998617172241211,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.046",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_055_0d33956a15.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6808751225471497,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_046_deb1de0143.png",
+      "normalScale": 1.0,
+      "metallic": 0.042415267861116934,
+      "metallicMeanBeforeNodeFactors": 0.424152672290802,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_046_deb1de0143.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6808751225471497,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.021",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_023_b507d4e8b4.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7085878252983093,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_021_8c1f18fd5d.png",
+      "normalScale": 1.0,
+      "metallic": 0.0003908863815052267,
+      "metallicMeanBeforeNodeFactors": 0.003908863756805658,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_021_8c1f18fd5d.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7085878252983093,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_neutral__Designer_Logic_PBR.029",
+      "baseColor": [
+        0.8399999737739563,
+        0.8299999833106995,
+        0.7799999713897705,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_031_9045b422ad.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7021718621253967,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "normalScale": 1.0,
+      "metallic": 2.3647568366360933e-05,
+      "metallicMeanBeforeNodeFactors": 0.0002364756801398471,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7021718621253967,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.001",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_001_41ecb0ef1b.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.670091450214386,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_001_6527e8a1be.png",
+      "normalScale": 1.0,
+      "metallic": 1.1359949381695886e-07,
+      "metallicMeanBeforeNodeFactors": 1.1359949212419451e-06,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_001_6527e8a1be.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.670091450214386,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_D02_lantern_Material_0.007",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_048_dab1ad813a.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_D02_125f57d9db.png",
+      "emissionColor": [
+        7.800000190734863,
+        7.800000190734863,
+        7.800000190734863,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.537102222442627,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_006_b118f26b41.png",
+      "normalScale": 1.0,
+      "metallic": 0.604678213596344,
+      "metallicMeanBeforeNodeFactors": 0.604678213596344,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_006_b118f26b41.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.537102222442627,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.052",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_061_affc131786.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7175688743591309,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_052_629da0dc5c.png",
+      "normalScale": 1.0,
+      "metallic": 0.004925412013015329,
+      "metallicMeanBeforeNodeFactors": 0.04925411939620972,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_052_629da0dc5c.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7175688743591309,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_6",
+      "baseColor": [
+        0.4019777774810791,
+        0.35640013217926025,
+        0.2581828534603119,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.949999988079071,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Connected_Lower_Massif",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Connected_Lower_Massif_base_a60b53f532.png",
+      "normalTexture": "Assets/Chapter01/Textures/Connected_Lower_Massif_normal_e1a2ae3ea2.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8392375707626343,
+      "roughnessTexture": "Assets/Chapter01/Textures/Connected_Lower_Massif_orm_336efd30bb.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8392375707626343,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.007",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_007_c8765f0148.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.676619291305542,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_007_6e72fc7cbc.png",
+      "normalScale": 1.0,
+      "metallic": 0.00018818809465599197,
+      "metallicMeanBeforeNodeFactors": 0.0018818809185177088,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_007_6e72fc7cbc.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.676619291305542,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Local_Clear_Deep_Water",
+      "baseColor": [
+        0.02500000037252903,
+        0.07500000298023224,
+        0.10000000149011612,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.1599999964237213,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.05000000074505806,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Outer_Bailey_Rock_Top",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Outer_Bailey_Rock_Top_base_787c284ad3.png",
+      "normalTexture": "Assets/Chapter01/Textures/Outer_Bailey_Rock_Top_normal_82da9550dd.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8278213143348694,
+      "roughnessTexture": "Assets/Chapter01/Textures/Outer_Bailey_Rock_Top_orm_bd21712b02.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8278213143348694,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.033",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_035_26cfba0179.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7486603856086731,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_033_7188f8a7c7.png",
+      "normalScale": 1.0,
+      "metallic": 0.0015527442329040797,
+      "metallicMeanBeforeNodeFactors": 0.01552744209766388,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_033_7188f8a7c7.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7486603856086731,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05b_medium_Designer_Logic_PBR.035",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_037_0ca02a5253.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05b_5714bbb20e.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7274082899093628,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_035_15781f2f5b.png",
+      "normalScale": 1.0,
+      "metallic": 0.009768259670857482,
+      "metallicMeanBeforeNodeFactors": 0.09768259525299072,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_035_15781f2f5b.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7274082899093628,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.014",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_014_c7c7d5fa04.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6955634355545044,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_014_529d3110de.png",
+      "normalScale": 1.0,
+      "metallic": 0.0068721429537556,
+      "metallicMeanBeforeNodeFactors": 0.06872142851352692,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_014_529d3110de.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6955634355545044,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_0.002",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_017_90ffb63f0e.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6845889091491699,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_001_1a127616a3.png",
+      "normalScale": 1.0,
+      "metallic": 0.0347757562994957,
+      "metallicMeanBeforeNodeFactors": 0.0347757562994957,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_001_1a127616a3.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.6845889091491699,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.039",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_042_701066717a.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7047388553619385,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_039_1c40a8b541.png",
+      "normalScale": 1.0,
+      "metallic": 5.66594914546923e-08,
+      "metallicMeanBeforeNodeFactors": 5.66594906104001e-07,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_039_1c40a8b541.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7047388553619385,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Support_Only_Transparent_Top",
+      "baseColor": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 0.0,
+      "roughness": 0.5,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_A10b_medium_Designer_Logic_PBR.041",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_044_ccdd91b795.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_A10b_0af7eb16dd.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7123446464538574,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_041_33fc846c33.png",
+      "normalScale": 1.0,
+      "metallic": 0.000488476043395341,
+      "metallicMeanBeforeNodeFactors": 0.004884760361164808,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_041_33fc846c33.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7123446464538574,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_0.008",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_049_dd4c09864c.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8182879686355591,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_007_b9d03e53ad.png",
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicMeanBeforeNodeFactors": 0.0,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_007_b9d03e53ad.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8182879686355591,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.045",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_054_7b274a6c86.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6038761138916016,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_045_c35da65cfa.png",
+      "normalScale": 1.0,
+      "metallic": 0.008475854374108527,
+      "metallicMeanBeforeNodeFactors": 0.08475854247808456,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_045_c35da65cfa.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6038761138916016,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.020",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_022_1cf2d8e30a.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7064343094825745,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_020_21654ba1f7.png",
+      "normalScale": 1.0,
+      "metallic": 9.48154148804458e-05,
+      "metallicMeanBeforeNodeFactors": 0.0009481541346758604,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_020_21654ba1f7.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7064343094825745,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.028",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_030_a07182cebb.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7447476387023926,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "normalScale": 1.0,
+      "metallic": 1.3142719595025769e-05,
+      "metallicMeanBeforeNodeFactors": 0.00013142719399183989,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7447476387023926,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_neutral__Designer_Logic_PBR.028",
+      "baseColor": [
+        0.8399999737739563,
+        0.8299999833106995,
+        0.7799999713897705,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_030_a07182cebb.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7447476387023926,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "normalScale": 1.0,
+      "metallic": 1.3142719595025769e-05,
+      "metallicMeanBeforeNodeFactors": 0.00013142719399183989,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7447476387023926,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.053",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_062_bcd67db437.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6416222453117371,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_053_cfc9342017.png",
+      "normalScale": 1.0,
+      "metallic": 0.003725758995499595,
+      "metallicMeanBeforeNodeFactors": 0.037257589399814606,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_053_cfc9342017.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6416222453117371,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_3c41dc0f0f.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5813665986061096,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_c6ca23caa5.png",
+      "normalScale": 1.0,
+      "metallic": 0.004154171111496852,
+      "metallicMeanBeforeNodeFactors": 0.04154171049594879,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_c6ca23caa5.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5813665986061096,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_D01_lantern_Material_0.005",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_046_42e3d70bf3.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_D01_5e4fb8ac35.png",
+      "emissionColor": [
+        7.800000190734863,
+        7.800000190734863,
+        7.800000190734863,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6281918287277222,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_004_d608966508.png",
+      "normalScale": 1.0,
+      "metallic": 0.6256425976753235,
+      "metallicMeanBeforeNodeFactors": 0.6256425976753235,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_004_d608966508.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.6281918287277222,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.051",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_060_1a5670842c.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7326631546020508,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_051_c2897759be.png",
+      "normalScale": 1.0,
+      "metallic": 0.008392340814953159,
+      "metallicMeanBeforeNodeFactors": 0.08392340689897537,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_051_c2897759be.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7326631546020508,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_5",
+      "baseColor": [
+        0.6307571530342102,
+        0.5711248517036438,
+        0.423267662525177,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.949999988079071,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Chapel_Rock_Top",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Chapel_Rock_Top_base_0f151f4711.png",
+      "normalTexture": "Assets/Chapter01/Textures/Chapel_Rock_Top_normal_8d9904c08f.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8433181047439575,
+      "roughnessTexture": "Assets/Chapter01/Textures/Chapel_Rock_Top_orm_2ed89b21ce.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8433181047439575,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.026",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_028_ea652bd86d.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7530841827392578,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_026_f61c059900.png",
+      "normalScale": 1.0,
+      "metallic": 0.013449640772486338,
+      "metallicMeanBeforeNodeFactors": 0.13449640572071075,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_026_f61c059900.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7530841827392578,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.006",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_006_61e574e6ba.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5961121320724487,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_006_79a309d81b.png",
+      "normalScale": 1.0,
+      "metallic": 0.007735796388027016,
+      "metallicMeanBeforeNodeFactors": 0.07735796272754669,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_006_79a309d81b.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5961121320724487,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Garden_Rock_Top",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Garden_Rock_Top_base_3755a5da84.png",
+      "normalTexture": "Assets/Chapter01/Textures/Garden_Rock_Top_normal_2747affba3.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8436254858970642,
+      "roughnessTexture": "Assets/Chapter01/Textures/Garden_Rock_Top_orm_199780c572.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8436254858970642,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.032",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_034_24b2669100.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6972490549087524,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_032_2665bba33d.png",
+      "normalScale": 1.0,
+      "metallic": 0.0029242596093454892,
+      "metallicMeanBeforeNodeFactors": 0.02924259565770626,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_032_2665bba33d.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6972490549087524,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05b_dim_Designer_Logic_PBR.035",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_037_0ca02a5253.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05b_5714bbb20e.png",
+      "emissionColor": [
+        1.1699999570846558,
+        1.1699999570846558,
+        1.1699999570846558,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7274082899093628,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_035_15781f2f5b.png",
+      "normalScale": 1.0,
+      "metallic": 0.009768259670857482,
+      "metallicMeanBeforeNodeFactors": 0.09768259525299072,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_035_15781f2f5b.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7274082899093628,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.013",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_013_eb7b034edb.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.673630952835083,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_013_82bdb55851.png",
+      "normalScale": 1.0,
+      "metallic": 0.011800666329274567,
+      "metallicMeanBeforeNodeFactors": 0.11800666153430939,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_013_82bdb55851.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.673630952835083,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_0.001",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_016_49ea54547d.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.9976708889007568,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_c7833f69da.png",
+      "normalScale": 1.0,
+      "metallic": 0.005548791494220495,
+      "metallicMeanBeforeNodeFactors": 0.005548791494220495,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_c7833f69da.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.9976708889007568,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_A10b_dim_Designer_Logic_PBR.041",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_044_ccdd91b795.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_A10b_0af7eb16dd.png",
+      "emissionColor": [
+        1.1699999570846558,
+        1.1699999570846558,
+        1.1699999570846558,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7123446464538574,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_041_33fc846c33.png",
+      "normalScale": 1.0,
+      "metallic": 0.000488476043395341,
+      "metallicMeanBeforeNodeFactors": 0.004884760361164808,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_041_33fc846c33.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7123446464538574,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.044",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_053_d420ff004e.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6591074466705322,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_044_376c42127e.png",
+      "normalScale": 1.0,
+      "metallic": 0.002788476501233525,
+      "metallicMeanBeforeNodeFactors": 0.027884764596819878,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_044_376c42127e.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6591074466705322,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.019",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_021_10f43ac718.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6337336301803589,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_019_657ce19540.png",
+      "normalScale": 1.0,
+      "metallic": 0.009519876681564399,
+      "metallicMeanBeforeNodeFactors": 0.09519876539707184,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_019_657ce19540.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6337336301803589,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_neutral__Designer_Logic_PBR.027",
+      "baseColor": [
+        0.8399999737739563,
+        0.8299999833106995,
+        0.7799999713897705,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_029_a93ebe8f9f.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7249369621276855,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_027_c06104cd0d.png",
+      "normalScale": 1.0,
+      "metallic": 0.00041698031748801934,
+      "metallicMeanBeforeNodeFactors": 0.004169803112745285,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_027_c06104cd0d.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7249369621276855,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "A14_Two_Sided_Roof_PBR",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_011_67aad27e32.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6972777843475342,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_011_7631f95366.png",
+      "normalScale": 1.0,
+      "metallic": 0.02333710228409025,
+      "metallicMeanBeforeNodeFactors": 0.23337101936340332,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_011_7631f95366.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6972777843475342,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.050",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_059_8a0c161e03.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5456346869468689,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_050_735311786b.png",
+      "normalScale": 1.0,
+      "metallic": 0.00028431986416607886,
+      "metallicMeanBeforeNodeFactors": 0.002843198599293828,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_050_735311786b.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5456346869468689,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Arrival_Ridge_Top",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Arrival_Ridge_Top_base_1195748247.png",
+      "normalTexture": "Assets/Chapter01/Textures/Arrival_Ridge_Top_normal_052333a08f.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8466188311576843,
+      "roughnessTexture": "Assets/Chapter01/Textures/Arrival_Ridge_Top_orm_21a399ee0f.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8466188311576843,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_38",
+      "baseColor": [
+        0.44520118832588196,
+        0.3762621283531189,
+        0.2541520893573761,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.949999988079071,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.025",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_027_f5597d2a49.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7075668573379517,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_025_7210bdfad9.png",
+      "normalScale": 1.0,
+      "metallic": 0.0038095586569541484,
+      "metallicMeanBeforeNodeFactors": 0.038095586001873016,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_025_7210bdfad9.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7075668573379517,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_Candle_Flame",
+      "baseColor": [
+        1.0,
+        0.33000001311302185,
+        0.03999999910593033,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        9.0,
+        3.1499999463558197,
+        0.630000002682209,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.005",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_005_74f6ae5ebb.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6930807828903198,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_005_154e3b4738.png",
+      "normalScale": 1.0,
+      "metallic": 0.00042908895468844396,
+      "metallicMeanBeforeNodeFactors": 0.004290889482945204,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_005_154e3b4738.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6930807828903198,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Garden_Continuous_Paving",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Garden_Continuous_Paving_base_9fa4287786.png",
+      "normalTexture": "Assets/Chapter01/Textures/Garden_Continuous_Paving_normal_7cbc0713a0.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8092802166938782,
+      "roughnessTexture": "Assets/Chapter01/Textures/Garden_Continuous_Paving_orm_31d51cf628.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8092802166938782,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.031",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_033_c3348b2619.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7493431568145752,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_031_a05fc6b8d9.png",
+      "normalScale": 1.0,
+      "metallic": 0.0004307540663444111,
+      "metallicMeanBeforeNodeFactors": 0.004307540599256754,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_031_a05fc6b8d9.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7493431568145752,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05b_dark_Designer_Logic_PBR.035",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_037_0ca02a5253.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05b_5714bbb20e.png",
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7274082899093628,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_035_15781f2f5b.png",
+      "normalScale": 1.0,
+      "metallic": 0.009768259670857482,
+      "metallicMeanBeforeNodeFactors": 0.09768259525299072,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_035_15781f2f5b.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7274082899093628,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.012",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_012_e0390b9b26.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.626716136932373,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_012_209f367945.png",
+      "normalScale": 1.0,
+      "metallic": 0.008822253477904995,
+      "metallicMeanBeforeNodeFactors": 0.08822253346443176,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_012_209f367945.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.626716136932373,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_0",
+      "baseColor": [
+        0.022173885256052017,
+        0.04970656707882881,
+        0.07227185368537903,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.949999988079071,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.002",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_002_f5f3441deb.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6734440922737122,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_002_ee9ce5a495.png",
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicMeanBeforeNodeFactors": 0.0,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_002_ee9ce5a495.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6734440922737122,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05c_medium_Designer_Logic_PBR.036",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_038_de382fa1c3.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05c_de56ec9c91.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6666458249092102,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "normalScale": 1.0,
+      "metallic": 0.006974961712583327,
+      "metallicMeanBeforeNodeFactors": 0.069749616086483,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6666458249092102,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_A10a_medium_Designer_Logic_PBR.040",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_043_8c081156b8.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_A10a_eb7823ecec.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6952919960021973,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_040_bd43998dc5.png",
+      "normalScale": 1.0,
+      "metallic": 0.0004224137000354185,
+      "metallicMeanBeforeNodeFactors": 0.004224136937409639,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_040_bd43998dc5.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6952919960021973,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_0.006",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_047_c1bb1116e9.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5182703137397766,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_005_7e17edc79f.png",
+      "normalScale": 1.0,
+      "metallic": 0.5954570174217224,
+      "metallicMeanBeforeNodeFactors": 0.5954570174217224,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_005_7e17edc79f.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.5182703137397766,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.043",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_052_8cd2d85f6a.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6621490716934204,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_043_b76caa49ad.png",
+      "normalScale": 1.0,
+      "metallic": 0.0012983882993219537,
+      "metallicMeanBeforeNodeFactors": 0.012983882799744606,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_043_b76caa49ad.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6621490716934204,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.018",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_020_e86e5468ab.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6033229231834412,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_018_67e11d7a5f.png",
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicMeanBeforeNodeFactors": 0.0,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_018_67e11d7a5f.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6033229231834412,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_cool__Designer_Logic_PBR.029",
+      "baseColor": [
+        0.6899999976158142,
+        0.7599999904632568,
+        0.800000011920929,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_031_9045b422ad.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7021718621253967,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "normalScale": 1.0,
+      "metallic": 2.3647568366360933e-05,
+      "metallicMeanBeforeNodeFactors": 0.0002364756801398471,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7021718621253967,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_B04_bright_Material_0.004",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_045_e163c0d79b.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_B04_6bd068c0e7.png",
+      "emissionColor": [
+        5.070000171661377,
+        5.070000171661377,
+        5.070000171661377,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7755038142204285,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_003_ddcadf36f0.png",
+      "normalScale": 1.0,
+      "metallic": 0.015411541797220707,
+      "metallicMeanBeforeNodeFactors": 0.015411541797220707,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_003_ddcadf36f0.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.7755038142204285,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.049",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_058_fe724bf210.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5304136276245117,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_049_560ea71dc6.png",
+      "normalScale": 1.0,
+      "metallic": 0.00026770709481398897,
+      "metallicMeanBeforeNodeFactors": 0.0026770709082484245,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_049_560ea71dc6.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5304136276245117,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_15",
+      "baseColor": [
+        0.0802198201417923,
+        0.14995978772640228,
+        0.19806931912899017,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.949999988079071,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.024",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_026_6d80fcff4a.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6216683983802795,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_024_4fd3897344.png",
+      "normalScale": 1.0,
+      "metallic": 0.0016923748208936273,
+      "metallicMeanBeforeNodeFactors": 0.016923747956752777,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_024_4fd3897344.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6216683983802795,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_warm__Designer_Logic_PBR.029",
+      "baseColor": [
+        0.9300000071525574,
+        0.8500000238418579,
+        0.7400000095367432,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_031_9045b422ad.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7021718621253967,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "normalScale": 1.0,
+      "metallic": 2.3647568366360933e-05,
+      "metallicMeanBeforeNodeFactors": 0.0002364756801398471,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7021718621253967,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.004",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_004_6b8256a5d8.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5106773376464844,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_004_45a01d2151.png",
+      "normalScale": 1.0,
+      "metallic": 0.0001285358351250862,
+      "metallicMeanBeforeNodeFactors": 0.0012853583320975304,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_004_45a01d2151.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5106773376464844,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.055",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_064_66cba548b3.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5137578845024109,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_009_0598bbe9bd.png",
+      "normalScale": 1.0,
+      "metallic": 0.12025421112775803,
+      "metallicMeanBeforeNodeFactors": 0.12025421112775803,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_009_0598bbe9bd.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.5137578845024109,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Crown_Promontory_Top",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Crown_Promontory_Top_base_ed7e6533b2.png",
+      "normalTexture": "Assets/Chapter01/Textures/Crown_Promontory_Top_normal_659ed5a3b9.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8426731824874878,
+      "roughnessTexture": "Assets/Chapter01/Textures/Crown_Promontory_Top_orm_eb553912e9.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8426731824874878,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Village_Path_Earth_v024",
+      "baseColor": [
+        0.11999999731779099,
+        0.0949999988079071,
+        0.06599999964237213,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.9399999976158142,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.030",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_032_b0e060000b.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7118889689445496,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_030_69813412cc.png",
+      "normalScale": 1.0,
+      "metallic": 0.005002550482787943,
+      "metallicMeanBeforeNodeFactors": 0.05002550408244133,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_030_69813412cc.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7118889689445496,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05a_medium_Designer_Logic_PBR.034",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_036_63d00f7936.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05a_c98b268d2f.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5874492526054382,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_034_567383f2a9.png",
+      "normalScale": 1.0,
+      "metallic": 0.0015155171270000503,
+      "metallicMeanBeforeNodeFactors": 0.015155171044170856,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_034_567383f2a9.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5874492526054382,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.010",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_010_e6a137674a.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6500058770179749,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_010_ccc45bccf7.png",
+      "normalScale": 1.0,
+      "metallic": 0.0063040220186713625,
+      "metallicMeanBeforeNodeFactors": 0.06304021924734116,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_010_ccc45bccf7.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6500058770179749,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Route_Slate_PBR",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Route_Slate_BaseColor_8433d81051.png",
+      "normalTexture": "Assets/Chapter01/Textures/Route_Slate_Normal_e83253e7ec.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7842460870742798,
+      "roughnessTexture": "Assets/Chapter01/Textures/Route_Slate_ORM_a195f84b75.png",
+      "normalScale": 0.550000011920929,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.7842460870742798,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Locally finished precise foundation core",
+      "baseColor": [
+        0.36000001430511475,
+        0.33000001311302185,
+        0.2849999964237213,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8999999761581421,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05c_dim_Designer_Logic_PBR.036",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_038_de382fa1c3.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05c_de56ec9c91.png",
+      "emissionColor": [
+        1.1699999570846558,
+        1.1699999570846558,
+        1.1699999570846558,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6666458249092102,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "normalScale": 1.0,
+      "metallic": 0.006974961712583327,
+      "metallicMeanBeforeNodeFactors": 0.069749616086483,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6666458249092102,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Connected_Middle_Massif",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Connected_Middle_Massif_base_b09c151855.png",
+      "normalTexture": "Assets/Chapter01/Textures/Connected_Middle_Massif_normal_86aff7fc2e.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8422219157218933,
+      "roughnessTexture": "Assets/Chapter01/Textures/Connected_Middle_Massif_orm_017b5672a9.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8422219157218933,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.017",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_019_8b2efe557f.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6806290149688721,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_017_06e09c064f.png",
+      "normalScale": 1.0,
+      "metallic": 0.0007509701065863683,
+      "metallicMeanBeforeNodeFactors": 0.007509700953960419,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_017_06e09c064f.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6806290149688721,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.042",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_051_13884d4db3.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7160333395004272,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_042_7a5516c765.png",
+      "normalScale": 1.0,
+      "metallic": 0.0004803288799573313,
+      "metallicMeanBeforeNodeFactors": 0.0048032887279987335,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_042_7a5516c765.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7160333395004272,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_cool__Designer_Logic_PBR.028",
+      "baseColor": [
+        0.6899999976158142,
+        0.7599999904632568,
+        0.800000011920929,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_030_a07182cebb.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7447476387023926,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "normalScale": 1.0,
+      "metallic": 1.3142719595025769e-05,
+      "metallicMeanBeforeNodeFactors": 0.00013142719399183989,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7447476387023926,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_B02_medium_Material_0.003",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_041_a6e4fb65e9.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_B02_a688fb64ce.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7789507508277893,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_1_002_62286ed64c.png",
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicMeanBeforeNodeFactors": 0.0,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_1_002_62286ed64c.png",
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.7789507508277893,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.048",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_057_7aee13547b.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6431321501731873,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_048_7935e8fcde.png",
+      "normalScale": 1.0,
+      "metallic": 4.411083202531869e-06,
+      "metallicMeanBeforeNodeFactors": 4.411083136801608e-05,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_048_7935e8fcde.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6431321501731873,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_12",
+      "baseColor": [
+        0.13286831974983215,
+        0.14702726900577545,
+        0.14126329123973846,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.949999988079071,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.023",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_025_4a46fcfb16.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5707704424858093,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_023_fe59cc58be.png",
+      "normalScale": 1.0,
+      "metallic": 0.0013199733766909444,
+      "metallicMeanBeforeNodeFactors": 0.013199733570218086,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_023_fe59cc58be.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5707704424858093,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_warm__Designer_Logic_PBR.028",
+      "baseColor": [
+        0.9300000071525574,
+        0.8500000238418579,
+        0.7400000095367432,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_030_a07182cebb.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7447476387023926,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "normalScale": 1.0,
+      "metallic": 1.3142719595025769e-05,
+      "metallicMeanBeforeNodeFactors": 0.00013142719399183989,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_028_9f10886863.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7447476387023926,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.003",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_003_fa52f26459.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6684178113937378,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_003_23b9927530.png",
+      "normalScale": 1.0,
+      "metallic": 2.9535865891298835e-07,
+      "metallicMeanBeforeNodeFactors": 2.9535865451180143e-06,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_003_23b9927530.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6684178113937378,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Crown_Massif_Foot",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Crown_Massif_Foot_base_036b4cdf7f.png",
+      "normalTexture": "Assets/Chapter01/Textures/Crown_Massif_Foot_normal_2d4c08a961.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8406607508659363,
+      "roughnessTexture": "Assets/Chapter01/Textures/Crown_Massif_Foot_orm_9c00f9d82f.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8406607508659363,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Village_ForestFloor_v024",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Village_ForestFloor_Albedo_75f99518cf.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.9599999785423279,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.029",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_031_9045b422ad.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7021718621253967,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "normalScale": 1.0,
+      "metallic": 2.3647568366360933e-05,
+      "metallicMeanBeforeNodeFactors": 0.0002364756801398471,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_029_47f32ab5cd.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7021718621253967,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.054",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_063_1606b4cfde.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6045966744422913,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_054_cfdc697a22.png",
+      "normalScale": 1.0,
+      "metallic": 0.004661597008430912,
+      "metallicMeanBeforeNodeFactors": 0.04661596938967705,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_054_cfdc697a22.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6045966744422913,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05a_dim_Designer_Logic_PBR.034",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_036_63d00f7936.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05a_c98b268d2f.png",
+      "emissionColor": [
+        1.1699999570846558,
+        1.1699999570846558,
+        1.1699999570846558,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5874492526054382,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_034_567383f2a9.png",
+      "normalScale": 1.0,
+      "metallic": 0.0015155171270000503,
+      "metallicMeanBeforeNodeFactors": 0.015155171044170856,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_034_567383f2a9.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5874492526054382,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.009",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_009_231f7ff465.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6750490069389343,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_009_b98bd8f66f.png",
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicMeanBeforeNodeFactors": 0.0,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_009_b98bd8f66f.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6750490069389343,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Ground_Upper_Stair_Rock_Top",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Upper_Stair_Rock_Top_base_761052fac7.png",
+      "normalTexture": "Assets/Chapter01/Textures/Upper_Stair_Rock_Top_normal_cd17831a60.png",
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.8358177542686462,
+      "roughnessTexture": "Assets/Chapter01/Textures/Upper_Stair_Rock_Top_orm_d425f6200d.png",
+      "normalScale": 0.6499999761581421,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessMeanBeforeNodeFactors": 0.8358177542686462,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05a_bright_Designer_Logic_PBR.034",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_036_63d00f7936.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05a_c98b268d2f.png",
+      "emissionColor": [
+        5.070000171661377,
+        5.070000171661377,
+        5.070000171661377,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5874492526054382,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_034_567383f2a9.png",
+      "normalScale": 1.0,
+      "metallic": 0.0015155171270000503,
+      "metallicMeanBeforeNodeFactors": 0.015155171044170856,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_034_567383f2a9.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5874492526054382,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_E05c_dark_Designer_Logic_PBR.036",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_038_de382fa1c3.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_E05c_de56ec9c91.png",
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.6666458249092102,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "normalScale": 1.0,
+      "metallic": 0.006974961712583327,
+      "metallicMeanBeforeNodeFactors": 0.069749616086483,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_036_91e57fae29.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.6666458249092102,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.016",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_018_6ce8ef328e.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.578654944896698,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_016_cd550818ec.png",
+      "normalScale": 1.0,
+      "metallic": 0.0006748173020752861,
+      "metallicMeanBeforeNodeFactors": 0.0067481729201972485,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_016_cd550818ec.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.578654944896698,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_cool__Designer_Logic_PBR.027",
+      "baseColor": [
+        0.6899999976158142,
+        0.7599999904632568,
+        0.800000011920929,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_029_a93ebe8f9f.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7249369621276855,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_027_c06104cd0d.png",
+      "normalScale": 1.0,
+      "metallic": 0.00041698031748801934,
+      "metallicMeanBeforeNodeFactors": 0.004169803112745285,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_027_c06104cd0d.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7249369621276855,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Night_B01_medium_Designer_Logic_PBR.038",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_040_63e339a430.png",
+      "normalTexture": null,
+      "emissionTexture": "Assets/Chapter01/Textures/Night_Glass_Emission_B01_8ac2991c35.png",
+      "emissionColor": [
+        2.807999849319458,
+        2.807999849319458,
+        2.807999849319458,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5870379209518433,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_038_fdc94f2554.png",
+      "normalScale": 1.0,
+      "metallic": 0.007126378374194775,
+      "metallicMeanBeforeNodeFactors": 0.07126378268003464,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_038_fdc94f2554.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5870379209518433,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.047",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_056_b0a51dc813.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.5924888849258423,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_047_2383253cde.png",
+      "normalScale": 1.0,
+      "metallic": 0.019901185034233104,
+      "metallicMeanBeforeNodeFactors": 0.19901184737682343,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_047_2383253cde.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.5924888849258423,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Designer_Logic_PBR.022",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_024_4f088855d6.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.70860755443573,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_022_4f43682e19.png",
+      "normalScale": 1.0,
+      "metallic": 0.0002723356050973475,
+      "metallicMeanBeforeNodeFactors": 0.0027233560103923082,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_022_4f43682e19.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.70860755443573,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "V024_Cliff_warm__Designer_Logic_PBR.027",
+      "baseColor": [
+        0.9300000071525574,
+        0.8500000238418579,
+        0.7400000095367432,
+        1.0
+      ],
+      "baseColorTexture": "Assets/Chapter01/Textures/Image_0_029_a93ebe8f9f.png",
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.7249369621276855,
+      "roughnessTexture": "Assets/Chapter01/Textures/Image_2_027_c06104cd0d.png",
+      "normalScale": 1.0,
+      "metallic": 0.00041698031748801934,
+      "metallicMeanBeforeNodeFactors": 0.004169803112745285,
+      "metallicTexture": "Assets/Chapter01/Textures/Image_2_027_c06104cd0d.png",
+      "metallicFactor": 0.10000000149011612,
+      "roughnessMeanBeforeNodeFactors": 0.7249369621276855,
+      "roughnessFactor": 1.0
+    },
+    {
+      "name": "Material_7",
+      "baseColor": [
+        0.019382361322641373,
+        0.039546236395835876,
+        0.052860647439956665,
+        1.0
+      ],
+      "baseColorTexture": null,
+      "normalTexture": null,
+      "emissionTexture": null,
+      "emissionColor": [
+        0.0,
+        0.0,
+        0.0,
+        1
+      ],
+      "alpha": 1.0,
+      "roughness": 0.949999988079071,
+      "roughnessTexture": null,
+      "normalScale": 1.0,
+      "metallic": 0.0,
+      "metallicTexture": null,
+      "metallicFactor": 1.0,
+      "roughnessFactor": 1.0
+    }
+  ],
+  "materialSlotNormalization": {
+    "objectOverridesCollapsed": 533,
+    "sharedMeshMaterialVariants": 37,
+    "allExportSlotsDataLinked": true,
+    "nativeBlendUnchanged": true
+  },
+  "skyTexture": "Assets/Chapter01/Textures/Night_Stars_4096x2048_fdaae858f1.png",
+  "coordinateAnchors": [
+    {
+      "name": "A01__Gate_South_Left_00_00__0",
+      "worldPositionBlender": [
+        -62.5,
+        90.0,
+        18.0
+      ]
+    },
+    {
+      "name": "Portal_Sentinel_Canopy_-8.8_foot",
+      "worldPositionBlender": [
+        -8.800000190734863,
+        -81.9000015258789,
+        75.3499984741211
+      ]
+    },
+    {
+      "name": "E01a__Arrival_Ridge_Wall_0_0_0__0",
+      "worldPositionBlender": [
+        -55.5865364074707,
+        185.84027099609375,
+        -10.518775939941406
+      ]
+    },
+    {
+      "name": "E02b__Arrival_Fir_-24__0",
+      "worldPositionBlender": [
+        -24.0,
+        174.0,
+        6.899999618530273
+      ]
+    },
+    {
+      "name": "E02b__Village_Fir_0__0",
+      "worldPositionBlender": [
+        -320.9818115234375,
+        111.94051361083984,
+        -6.408322334289551
+      ]
+    }
+  ],
+  "camera": {
+    "positionBlender": [
+      320.0,
+      430.0,
+      240.0
+    ],
+    "rotationQuaternionBlenderWXYZ": [
+      0.28165555000305176,
+      0.21248461306095123,
+      0.5635228753089905,
+      0.7469688653945923
+    ],
+    "lens": 36.0,
+    "sensorWidth": 36.0,
+    "sensorHeight": 24.0,
+    "orthographic": false,
+    "orthoScale": 410.0,
+    "renderAspect": 1.44
+  },
+  "playerCamera": {
+    "positionBlender": [
+      -4,
+      168,
+      1.7
+    ],
+    "targetBlender": [
+      -21,
+      145,
+      1.05
+    ],
+    "lens": 24.0,
+    "sensorWidth": 36.0,
+    "renderAspect": 1.44
+  },
+  "scope": "Mesh-only FBX groups for actual Unity model-import LOD generation; no Unity gameplay scene/build-setting changes.",
+  "lights": [
+    {
+      "name": "Moonlight_Key",
+      "type": "SUN",
+      "positionBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerBlender": [
+        0.45378559827804565,
+        -0.5585053563117981,
+        -0.6108652353286743
+      ],
+      "color": [
+        0.5199999809265137,
+        0.6700000166893005,
+        1.0
+      ],
+      "energy": 0.8500000238418579,
+      "range": 40.0,
+      "shadow": true
+    },
+    {
+      "name": "Night_Sky_Fill",
+      "type": "SUN",
+      "positionBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationEulerBlender": [
+        1.0821040868759155,
+        0.0,
+        2.478367567062378
+      ],
+      "color": [
+        0.49000000953674316,
+        0.6299999952316284,
+        0.9200000166893005
+      ],
+      "energy": 0.47999998927116394,
+      "range": 40.0,
+      "shadow": false
+    },
+    {
+      "name": "WindowSpill__A10a__Facade_Lancet_-12.8",
+      "type": "POINT",
+      "positionBlender": [
+        -12.800000190734863,
+        -83.49999237060547,
+        80.5
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 130.0,
+      "range": 12.0,
+      "shadow": false
+    },
+    {
+      "name": "WindowSpill__A10a__Facade_Lancet_12.8",
+      "type": "POINT",
+      "positionBlender": [
+        12.800000190734863,
+        -83.49999237060547,
+        80.5
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 130.0,
+      "range": 12.0,
+      "shadow": false
+    },
+    {
+      "name": "WindowSpill__A10a__Gate_Upper_Lancet",
+      "type": "POINT",
+      "positionBlender": [
+        -35.0,
+        95.5999984741211,
+        32.00824737548828
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 130.0,
+      "range": 12.0,
+      "shadow": false
+    },
+    {
+      "name": "WindowSpill__A10b__Chapel_South_Window",
+      "type": "POINT",
+      "positionBlender": [
+        -93.0,
+        -23.700000762939453,
+        60.001914978027344
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 130.0,
+      "range": 12.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Ascent_Lamp_10",
+      "type": "POINT",
+      "positionBlender": [
+        -18.217260360717773,
+        41.596622467041016,
+        23.64200210571289
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Ascent_Lamp_11",
+      "type": "POINT",
+      "positionBlender": [
+        -39.85454177856445,
+        37.97092056274414,
+        27.64200210571289
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Ascent_Lamp_14",
+      "type": "POINT",
+      "positionBlender": [
+        -76.40689849853516,
+        -10.140681266784668,
+        31.96200180053711
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Ascent_Lamp_15",
+      "type": "POINT",
+      "positionBlender": [
+        -62.11853790283203,
+        -7.919707775115967,
+        37.00200271606445
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Bailey_Lamp_-15_-75",
+      "type": "POINT",
+      "positionBlender": [
+        -15.0,
+        75.0,
+        21.002002716064453
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Bailey_Lamp_-48_-43",
+      "type": "POINT",
+      "positionBlender": [
+        -48.0,
+        43.0,
+        21.002002716064453
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Bailey_Lamp_-48_-78",
+      "type": "POINT",
+      "positionBlender": [
+        -48.0,
+        78.0,
+        21.002002716064453
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Garden_Upper_Lamp_20",
+      "type": "POINT",
+      "positionBlender": [
+        -50.150001525878906,
+        -56.20000076293945,
+        41.64200210571289
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Garden_Upper_Lamp_21",
+      "type": "POINT",
+      "positionBlender": [
+        -62.879817962646484,
+        -45.92073440551758,
+        45.32200241088867
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Garden_Upper_Lamp_22",
+      "type": "POINT",
+      "positionBlender": [
+        -72.27999877929688,
+        -45.709999084472656,
+        47.64200210571289
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Road_Beacon_1",
+      "type": "POINT",
+      "positionBlender": [
+        -8.143754005432129,
+        151.11253356933594,
+        4.322000026702881
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Road_Beacon_3",
+      "type": "POINT",
+      "positionBlender": [
+        35.946895599365234,
+        130.54513549804688,
+        9.322000503540039
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Road_Beacon_5",
+      "type": "POINT",
+      "positionBlender": [
+        0.651081919670105,
+        104.39581298828125,
+        15.322000503540039
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Road_Beacon_6",
+      "type": "POINT",
+      "positionBlender": [
+        -18.660301208496094,
+        106.97262573242188,
+        17.642000198364258
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Upper_Beacon_27",
+      "type": "POINT",
+      "positionBlender": [
+        -76.03706359863281,
+        -76.711181640625,
+        55.32200241088867
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Upper_Beacon_30",
+      "type": "POINT",
+      "positionBlender": [
+        -23.29628562927246,
+        -68.54466247558594,
+        59.64200210571289
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Upper_Beacon_32",
+      "type": "POINT",
+      "positionBlender": [
+        12.427202224731445,
+        -69.30519104003906,
+        67.3219985961914
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Upper_Beacon_35",
+      "type": "POINT",
+      "positionBlender": [
+        -3.9000000953674316,
+        -75.91999816894531,
+        71.00199127197266
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Village_Lantern_0",
+      "type": "POINT",
+      "positionBlender": [
+        -309.0,
+        114.0,
+        -13.997998237609863
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Village_Lantern_1",
+      "type": "POINT",
+      "positionBlender": [
+        -274.0,
+        92.0,
+        -13.997998237609863
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Village_Lantern_2",
+      "type": "POINT",
+      "positionBlender": [
+        -266.0,
+        68.0,
+        -13.997998237609863
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Village_Lantern_3",
+      "type": "POINT",
+      "positionBlender": [
+        -239.0,
+        49.0,
+        -13.997998237609863
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Village_Lantern_4",
+      "type": "POINT",
+      "positionBlender": [
+        -210.0,
+        17.0,
+        -13.997998237609863
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D01__Village_Lantern_5",
+      "type": "POINT",
+      "positionBlender": [
+        -248.0,
+        12.0,
+        -13.997998237609863
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 490.0,
+      "range": 17.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D02__Six_Combat_Lantern_-14.7_117",
+      "type": "POINT",
+      "positionBlender": [
+        -14.25001335144043,
+        -117.0,
+        71.447998046875
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 180.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D02__Six_Combat_Lantern_-14.7_136",
+      "type": "POINT",
+      "positionBlender": [
+        -14.250016212463379,
+        -136.0,
+        71.447998046875
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 180.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D02__Six_Combat_Lantern_-14.7_99",
+      "type": "POINT",
+      "positionBlender": [
+        -14.250012397766113,
+        -99.0,
+        71.447998046875
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 180.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D02__Six_Combat_Lantern_14.7_117",
+      "type": "POINT",
+      "positionBlender": [
+        14.24998664855957,
+        -117.0,
+        71.447998046875
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 180.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D02__Six_Combat_Lantern_14.7_136",
+      "type": "POINT",
+      "positionBlender": [
+        14.249983787536621,
+        -136.0,
+        71.447998046875
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 180.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D02__Six_Combat_Lantern_14.7_99",
+      "type": "POINT",
+      "positionBlender": [
+        14.249987602233887,
+        -99.0,
+        71.447998046875
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 180.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D03__Chapel_Candle_-103_32",
+      "type": "POINT",
+      "positionBlender": [
+        -103.0,
+        -32.0,
+        51.92000198364258
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 95.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D03__Chapel_Candle_-103_50",
+      "type": "POINT",
+      "positionBlender": [
+        -103.0,
+        -50.0,
+        51.92000198364258
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 95.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D03__Chapel_Candle_-82_32",
+      "type": "POINT",
+      "positionBlender": [
+        -82.0,
+        -32.0,
+        51.92000198364258
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 95.0,
+      "range": 10.0,
+      "shadow": false
+    },
+    {
+      "name": "WarmPool__D03__Chapel_Candle_-82_50",
+      "type": "POINT",
+      "positionBlender": [
+        -82.0,
+        -50.0,
+        51.92000198364258
+      ],
+      "rotationEulerBlender": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.4300000071525574,
+        0.12999999523162842
+      ],
+      "energy": 95.0,
+      "range": 10.0,
+      "shadow": false
+    }
+  ],
+  "materialLinkAudit": {
+    "source": "material-source-links.json",
+    "sha256": "0b00fa70d05ecdf87855ad1c63e8f217f1584e7e8b68baf3ccda6d820d5c162a",
+    "textureScalarCorrections": [
+      {
+        "material": "Designer_Logic_PBR.008",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05c_bright_Designer_Logic_PBR.036",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.015",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_A19_medium_Designer_Logic_PBR.037",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.046",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.021",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_neutral__Designer_Logic_PBR.029",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.001",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.052",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.007",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.033",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05b_medium_Designer_Logic_PBR.035",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.014",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.039",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_A10b_medium_Designer_Logic_PBR.041",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.045",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.020",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.028",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_neutral__Designer_Logic_PBR.028",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.053",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.051",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.026",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.006",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.032",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05b_dim_Designer_Logic_PBR.035",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.013",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_A10b_dim_Designer_Logic_PBR.041",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.044",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.019",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_neutral__Designer_Logic_PBR.027",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "A14_Two_Sided_Roof_PBR",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.050",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.025",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.005",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.031",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05b_dark_Designer_Logic_PBR.035",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.012",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.002",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05c_medium_Designer_Logic_PBR.036",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_A10a_medium_Designer_Logic_PBR.040",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.043",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.018",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_cool__Designer_Logic_PBR.029",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.049",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.024",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_warm__Designer_Logic_PBR.029",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.004",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.030",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05a_medium_Designer_Logic_PBR.034",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.010",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05c_dim_Designer_Logic_PBR.036",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.017",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.042",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_cool__Designer_Logic_PBR.028",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.048",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.023",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_warm__Designer_Logic_PBR.028",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.003",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.029",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.054",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05a_dim_Designer_Logic_PBR.034",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.009",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05a_bright_Designer_Logic_PBR.034",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_E05c_dark_Designer_Logic_PBR.036",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.016",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_cool__Designer_Logic_PBR.027",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Night_B01_medium_Designer_Logic_PBR.038",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.047",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "Designer_Logic_PBR.022",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      },
+      {
+        "material": "V024_Cliff_warm__Designer_Logic_PBR.027",
+        "input": "metallic",
+        "factor": 0.10000000149011612
+      }
+    ],
+    "modelFilesUnchanged": true
+  }
+}

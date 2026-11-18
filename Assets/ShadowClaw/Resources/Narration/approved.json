@@ -1,0 +1,321 @@
+{
+  "lines": [
+    {
+      "id": "01_adventure",
+      "zh": "那一夜，一名猎魔人带着一把银弩，走进了一个还不肯结束的故事。",
+      "en": "That night, a hunter with a silver crossbow stepped into a story that refused to end.",
+      "parts": [
+        {
+          "clip": "01_adventure",
+          "zh": "那一夜，一名猎魔人带着一把银弩，走进了一个还不肯结束的故事。",
+          "en": "That night, a hunter with a silver crossbow stepped into a story that refused to end."
+        }
+      ]
+    },
+    {
+      "id": "22_courtyard",
+      "zh": "走到庭院中央，猎魔人又看见了那座塔。\n从山脚望去，隐约能看到封印的雾气。",
+      "en": "In the middle of the courtyard, the hunter saw the tower again.\nFrom the foot of the mountain, he'd barely been able to make out the mist that sealed it.",
+      "parts": [
+        {
+          "clip": "22_courtyard",
+          "zh": "走到庭院中央，猎魔人又看见了那座塔。",
+          "en": "In the middle of the courtyard, the hunter saw the tower again."
+        },
+        {
+          "clip": "22_courtyard_02",
+          "zh": "从山脚望去，隐约能看到封印的雾气。",
+          "en": "From the foot of the mountain, he'd barely been able to make out the mist that sealed it."
+        }
+      ]
+    },
+    {
+      "id": "02_ground_shadows",
+      "zh": "披着雾的鬼魂迎了上来。\n但它们是如此脆弱，一支射向影子的箭矢就能令其重归安宁。",
+      "en": "Mist-cloaked spirits came to meet him.\nSuch fragile things. One bolt through a shadow, and its spirit could rest again.",
+      "parts": [
+        {
+          "clip": "02_ground_shadows",
+          "zh": "披着雾的鬼魂迎了上来。",
+          "en": "Mist-cloaked spirits came to meet him."
+        },
+        {
+          "clip": "02_ground_shadows_02",
+          "zh": "但它们是如此脆弱，一支射向影子的箭矢就能令其重归安宁。",
+          "en": "Such fragile things. One bolt through a shadow, and its spirit could rest again."
+        }
+      ]
+    },
+    {
+      "id": "03_fire_thief",
+      "zh": "啊，窃火的侍僧们。\n可耻。\n射中那盏灯，就能让他空手而归。",
+      "en": "Ah, the fire-stealing acolytes.\nFor shame.\nShoot the lamp, and send the thief away empty-handed.",
+      "parts": [
+        {
+          "clip": "03_fire_thief",
+          "zh": "啊，窃火的侍僧们。",
+          "en": "Ah, the fire-stealing acolytes."
+        },
+        {
+          "clip": "03_fire_thief_02",
+          "zh": "可耻。",
+          "en": "For shame."
+        },
+        {
+          "clip": "03_fire_thief_03",
+          "zh": "射中那盏灯，就能让他空手而归。",
+          "en": "Shoot the lamp, and send the thief away empty-handed."
+        }
+      ]
+    },
+    {
+      "id": "11_acolyte_shadow",
+      "zh": "阴影的尽头，是哀嚎的火光。\n朝那盏灯放一箭，窃火侍僧便再无路可逃。",
+      "en": "At the far end of the shadow, a flame cried out.\nA bolt to that lamp, and the fire thief would have nowhere left to run.",
+      "parts": [
+        {
+          "clip": "11_acolyte_shadow",
+          "zh": "阴影的尽头，是哀嚎的火光。",
+          "en": "At the far end of the shadow, a flame cried out."
+        },
+        {
+          "clip": "11_acolyte_shadow_02",
+          "zh": "朝那盏灯放一箭，窃火侍僧便再无路可逃。",
+          "en": "A bolt to that lamp, and the fire thief would have nowhere left to run."
+        }
+      ]
+    },
+    {
+      "id": "12_holy_knife",
+      "zh": "灯芯亮了，也点燃了猎魔人的小刀。\n它拥有点亮光明，灼烧阴影的力量。",
+      "en": "The wick caught, and so did the blade of the hunter's knife.\nWith that fire he could kindle a light, or set a shadow ablaze.",
+      "parts": [
+        {
+          "clip": "12_holy_knife",
+          "zh": "灯芯亮了，也点燃了猎魔人的小刀。",
+          "en": "The wick caught, and so did the blade of the hunter's knife."
+        },
+        {
+          "clip": "12_holy_knife_02",
+          "zh": "它拥有点亮光明，灼烧阴影的力量。",
+          "en": "With that fire he could kindle a light, or set a shadow ablaze."
+        }
+      ]
+    },
+    {
+      "id": "06_recovery",
+      "zh": "几次平稳的呼吸后，伤口便开始慢慢合拢。",
+      "en": "After a few steady breaths, his wounds slowly began to close.",
+      "parts": [
+        {
+          "clip": "06_recovery",
+          "zh": "几次平稳的呼吸后，伤口便开始慢慢合拢。",
+          "en": "After a few steady breaths, his wounds slowly began to close."
+        }
+      ]
+    },
+    {
+      "id": "13_guardian_entrance",
+      "zh": "猎魔人一直以为，礼拜堂里的大家伙是座雕像。\n直到它举起手，地上的影子也张开了五指。",
+      "en": "The hunter had always taken the great figure in the chapel for a statue.\nThen it raised a hand, and five shadowy fingers spread across the floor.",
+      "parts": [
+        {
+          "clip": "13_guardian_entrance",
+          "zh": "猎魔人一直以为，礼拜堂里的大家伙是座雕像。",
+          "en": "The hunter had always taken the great figure in the chapel for a statue."
+        },
+        {
+          "clip": "13_guardian_entrance_02",
+          "zh": "直到它举起手，地上的影子也张开了五指。",
+          "en": "Then it raised a hand, and five shadowy fingers spread across the floor."
+        }
+      ]
+    },
+    {
+      "id": "14_guardian_trial",
+      "zh": "守灯者也会贪图火焰吗？\n射向那盏灯，阻止他。",
+      "en": "Does even the Keeper covet the flame?\nShoot the lamp. Stop him.",
+      "parts": [
+        {
+          "clip": "14_guardian_trial",
+          "zh": "守灯者也会贪图火焰吗？",
+          "en": "Does even the Keeper covet the flame?"
+        },
+        {
+          "clip": "14_guardian_trial_02",
+          "zh": "射向那盏灯，阻止他。",
+          "en": "Shoot the lamp. Stop him."
+        }
+      ]
+    },
+    {
+      "id": "19_guardian_shadow_fire",
+      "zh": "火苗沿着阴影的轮廓前行，点亮了这片黑暗。",
+      "en": "The flame traced the edge of the shadow, lighting up the dark.",
+      "parts": [
+        {
+          "clip": "19_guardian_shadow_fire",
+          "zh": "火苗沿着阴影的轮廓前行，点亮了这片黑暗。",
+          "en": "The flame traced the edge of the shadow, lighting up the dark."
+        }
+      ]
+    },
+    {
+      "id": "15_guardian_defeated",
+      "zh": "礼拜堂终于静了。黑雾散去的地方，还落着一点暖光。",
+      "en": "At last, the chapel fell quiet. Where the black mist had cleared, a little light still glowed.",
+      "parts": [
+        {
+          "clip": "15_guardian_defeated",
+          "zh": "礼拜堂终于静了。黑雾散去的地方，还落着一点暖光。",
+          "en": "At last, the chapel fell quiet. Where the black mist had cleared, a little light still glowed."
+        }
+      ]
+    },
+    {
+      "id": "20_guardian_relic_pickup",
+      "zh": "守灯者的灯心，那家伙唯一留下的光明。\n那点火还暖着，足够替他合上一道伤口。",
+      "en": "The Keeper's wick. The only light he'd left behind.\nIts little flame was still warm, warm enough to mend one of the hunter's wounds.",
+      "parts": [
+        {
+          "clip": "20_guardian_relic_pickup",
+          "zh": "守灯者的灯心，那家伙唯一留下的光明。",
+          "en": "The Keeper's wick. The only light he'd left behind."
+        },
+        {
+          "clip": "20_guardian_relic_pickup_02",
+          "zh": "那点火还暖着，足够替他合上一道伤口。",
+          "en": "Its little flame was still warm, warm enough to mend one of the hunter's wounds."
+        }
+      ]
+    },
+    {
+      "id": "23_upper_bridge",
+      "zh": "连桥下的风掀起了猎魔人的衣角。\n他知道，他要到了。",
+      "en": "The wind rose from beneath the bridge and lifted the hem of the hunter's coat.\nHe knew he was nearly there.",
+      "parts": [
+        {
+          "clip": "23_upper_bridge",
+          "zh": "连桥下的风掀起了猎魔人的衣角。",
+          "en": "The wind rose from beneath the bridge and lifted the hem of the hunter's coat."
+        },
+        {
+          "clip": "23_upper_bridge_02",
+          "zh": "他知道，他要到了。",
+          "en": "He knew he was nearly there."
+        }
+      ]
+    },
+    {
+      "id": "16_final_fog_gate",
+      "zh": "猎魔人穿过帷幕，雾气在他身后合拢。\n大厅深处，一个身影已经等了很久。",
+      "en": "The hunter stepped through the veil, and the mist closed behind him.\nDeep in the hall, a figure had long been waiting.",
+      "parts": [
+        {
+          "clip": "16_final_fog_gate",
+          "zh": "猎魔人穿过帷幕，雾气在他身后合拢。",
+          "en": "The hunter stepped through the veil, and the mist closed behind him."
+        },
+        {
+          "clip": "16_final_fog_gate_02",
+          "zh": "大厅深处，一个身影已经等了很久。",
+          "en": "Deep in the hall, a figure had long been waiting."
+        }
+      ]
+    },
+    {
+      "id": "05_more_lamps",
+      "zh": "灯一盏盏亮起，恶魔的影子也一寸寸缩小。\n猎魔人握稳了弩，这一次，需要瞄得更准。",
+      "en": "One by one, the lamps came alight, and the demon's shadow grew smaller.\nThe hunter steadied his crossbow. This shot would need a surer aim.",
+      "parts": [
+        {
+          "clip": "05_more_lamps",
+          "zh": "灯一盏盏亮起，恶魔的影子也一寸寸缩小。",
+          "en": "One by one, the lamps came alight, and the demon's shadow grew smaller."
+        },
+        {
+          "clip": "05_more_lamps_02",
+          "zh": "猎魔人握稳了弩，这一次，需要瞄得更准。",
+          "en": "The hunter steadied his crossbow. This shot would need a surer aim."
+        }
+      ]
+    },
+    {
+      "id": "21_first_boss_wound",
+      "zh": "猎魔人受伤了，这是在所难免的。\n但守灯者的灯芯似乎能帮上忙。",
+      "en": "The hunter was hurt. It was bound to happen.\nStill, the Keeper's wick might help.",
+      "parts": [
+        {
+          "clip": "21_first_boss_wound",
+          "zh": "猎魔人受伤了，这是在所难免的。",
+          "en": "The hunter was hurt. It was bound to happen."
+        },
+        {
+          "clip": "21_first_boss_wound_02",
+          "zh": "但守灯者的灯芯似乎能帮上忙。",
+          "en": "Still, the Keeper's wick might help."
+        }
+      ]
+    },
+    {
+      "id": "17_final_blackout",
+      "zh": "六盏灯都睡了。快点亮一盏，她来了。",
+      "en": "All six lamps have fallen asleep. Quick, light one. She's coming.",
+      "parts": [
+        {
+          "clip": "17_final_blackout",
+          "zh": "六盏灯都睡了。快点亮一盏，她来了。",
+          "en": "All six lamps have fallen asleep. Quick, light one. She's coming."
+        }
+      ]
+    },
+    {
+      "id": "18_final_relight",
+      "zh": "影魔怕光，一时不能动弹。",
+      "en": "She fears the light. For a moment, she cannot move.",
+      "parts": [
+        {
+          "clip": "18_final_relight",
+          "zh": "影魔怕光，一时不能动弹。",
+          "en": "She fears the light. For a moment, she cannot move."
+        }
+      ]
+    },
+    {
+      "id": "24_demon_dispersal",
+      "zh": "影魔的身躯散成了黑雾。猎魔人听了片刻，再也没听见她的脚步。",
+      "en": "The demon's body dissolved into black mist. The hunter listened a while. He never heard her footsteps again.",
+      "parts": [
+        {
+          "clip": "24_demon_dispersal",
+          "zh": "影魔的身躯散成了黑雾。猎魔人听了片刻，再也没听见她的脚步。",
+          "en": "The demon's body dissolved into black mist. The hunter listened a while. He never heard her footsteps again."
+        }
+      ]
+    },
+    {
+      "id": "08_boss_defeated",
+      "zh": "于是，古堡里最后的影子，终于迎来了它的火光。",
+      "en": "And so, in the end, the castle's last shadow found a flame of its own.",
+      "parts": [
+        {
+          "clip": "08_boss_defeated",
+          "zh": "于是，古堡里最后的影子，终于迎来了它的火光。",
+          "en": "And so, in the end, the castle's last shadow found a flame of its own."
+        }
+      ]
+    },
+    {
+      "id": "09_epilogue",
+      "zh": "猎魔人没有回头，而是继续走向尚未讲完的故事。",
+      "en": "The hunter walked on without looking back. There was more of the story still to tell.",
+      "parts": [
+        {
+          "clip": "09_epilogue",
+          "zh": "猎魔人没有回头，而是继续走向尚未讲完的故事。",
+          "en": "The hunter walked on without looking back. There was more of the story still to tell."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Outer_Bailey_Rock_Top_Soil_Rock_Transition
+  m_Shader: {fileID: 4800000, guid: a4bd3ed1908d47d45b710a56ac076721, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distribution:
+        m_Texture: {fileID: 2800000, guid: f4bf4fdadb2e40844aa0322e7059d145, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeDistance:
+        m_Texture: {fileID: 2800000, guid: 93ca18930a52d444a89aa3c7f109020a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassDetail:
+        m_Texture: {fileID: 2800000, guid: 10b22b31627825242b8bc24539d13fa7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassTex:
+        m_Texture: {fileID: 2800000, guid: e224ceda528b0f347a6cb182b388b156, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockNormal:
+        m_Texture: {fileID: 2800000, guid: ec551d71f986f7e47849e1198c47e43a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockTex:
+        m_Texture: {fileID: 2800000, guid: bc50cbd31168f3543bac4bc6443d1016, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SoilDetail:
+        m_Texture: {fileID: 2800000, guid: 6c5d16ce6338d954d8e2881c72381971, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SoilTex:
+        m_Texture: {fileID: 2800000, guid: 98b5b65a4a035fc459b06cf174230f57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Coverage: 0.62
+    - _DetailScale: 0.5
+    - _NormalStrength: 0.48
+    - _RockScale: 0.16666667
+    - _UseRimVertexAlpha: 0
+    m_Colors:
+    - _EdgeBounds: {r: -3.000002, g: -96.99999, b: 0.013290762, a: 0.014084509}
+    - _RockTint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

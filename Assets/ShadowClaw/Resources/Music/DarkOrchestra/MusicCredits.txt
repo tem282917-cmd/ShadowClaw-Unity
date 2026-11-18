@@ -1,0 +1,17 @@
+Music: Leonardo Calvo — Dark Orchestra Music Pack
+Tracks: Mistery Village; Cursed; Until Death.
+Source: https://thesoundrack.itch.io/dark-orchestra-music-pack
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Adaptations for Shadow: original aligned instrumental stems were remixed into
+exploration/combat and normal/blackout arrangements. Levels were adjusted and
+audio was converted from 48 kHz 24-bit to 48 kHz 16-bit stereo WAV for Unity import.
+Original timing, pitches, and author-provided start/end loop points are retained.
+Each loop edge has a 3 ms continuity correction to remove a sample discontinuity.
+Music by Leonardo Calvo; no endorsement by the composer is implied.
+These music assets remain available under CC BY 4.0.
+
+Title Veil adapts the Piano and Glocken stems from Cursed by Leonardo Calvo.
+The title arrangement rolls off bass and treble, softens the note attacks,
+and leaves space around the piano with a quiet stereo echo.

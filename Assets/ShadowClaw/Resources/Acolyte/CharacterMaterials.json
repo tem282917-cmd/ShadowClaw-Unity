@@ -1,0 +1,16 @@
+{
+  "materials": [
+    {
+      "name": "AcolyteSurface_0",
+      "baseColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "metallic": 0.1,
+      "roughness": 1.0,
+      "albedo": "Acolyte_0_albedo.png"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Quaternius Animated Knight Pack — Guardian presentation source
+Author: Quaternius
+Original pack: https://quaternius.com/packs/knightcharacter.html
+Author mirror and CC0 statement: https://quaternius.itch.io/lowpoly-animated-knight
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Verified and downloaded: 2026-11-18
+Files downloaded unchanged from the public folder linked by the author:
+KnightCharacter.fbx: https://drive.google.com/uc?export=download&id=1f-Y_lNExN-eAp2XCMVokY9x3xy6-4Aen
+Helmet2.fbx: https://drive.google.com/uc?export=download&id=1fFD2la7R9v_cvNgQ_rQfnYL6hOpsEJ4Z
+The runtime uses the supplied skeleton and Idle clip, with dark steel material instances and pose alignment to the existing attack timing. No sword/shield is attached.
+ChestLantern.prefab reuses the project's existing GrandCombatLantern asset and its existing licensed source/materials; see the project's grand-lantern asset credits. Its gameplay lights and collisions are disabled when used as the guardian chest ornament.

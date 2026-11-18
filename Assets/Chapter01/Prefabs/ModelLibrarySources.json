@@ -1,0 +1,683 @@
+{
+  "schema": "shadow.chapter01-prefab-sources/v1",
+  "source": "Production-v03/atmosphere-v024 source-inventory and production-plan; mesh references resolved from current scene",
+  "entries": [
+    {
+      "id": "A01",
+      "name": "实墙直段",
+      "category": "Architecture",
+      "sourceInstance": "A01__Transept_End_-1_00_00",
+      "meshNames": [
+        "A01__Transept_End_-1_00_00__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A02",
+      "name": "窗洞墙段",
+      "category": "Architecture",
+      "sourceInstance": "A02__Bailey_Window_-71_structural_reveal",
+      "meshNames": [
+        "A02__Bailey_Window_-71_structural_reveal__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A03",
+      "name": "墙体转角",
+      "category": "Architecture",
+      "sourceInstance": "A03__Chapel_Corner_-108.6_-25.4_52.67",
+      "meshNames": [
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__0",
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__1",
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__2",
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__3",
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__4",
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__5",
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__6",
+        "A03__Chapel_Corner_-108.6_-25.4_52.67__7"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A04",
+      "name": "墙端头",
+      "category": "Architecture",
+      "sourceInstance": "A04__Bailey_Free_End_-64_00_00",
+      "meshNames": [
+        "A04__Bailey_Free_End_-64_00_00__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A05",
+      "name": "地面铺石",
+      "category": "Architecture",
+      "sourceInstance": "A05__Court_Paving_surface_0_4_0",
+      "meshNames": [
+        "A05__Court_Paving_surface_0_4_0__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A06",
+      "name": "女墙垛口",
+      "category": "Architecture",
+      "sourceInstance": "A06__West_Crenels_period_0",
+      "meshNames": [
+        "A06__West_Crenels_period_0__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A07",
+      "name": "平地栏杆",
+      "category": "Architecture",
+      "sourceInstance": "A07__Edge_15_1_period_2",
+      "meshNames": [
+        "A07__Edge_15_1_period_2__0",
+        "A07__Edge_15_1_period_2__1"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A08",
+      "name": "阶梯坡栏",
+      "category": "Architecture",
+      "sourceInstance": "A08__Edge_11_1_period_5",
+      "meshNames": [
+        "A08__Edge_11_1_period_5__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A09",
+      "name": "普通尖拱门框",
+      "category": "Architecture",
+      "sourceInstance": "A09__Chapel_North_Portal",
+      "meshNames": [
+        "A09__Chapel_North_Portal__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A10a",
+      "name": "尖拱窗窄款",
+      "category": "Architecture",
+      "sourceInstance": "A10a__Nave_Clerestory_Window_-1_111",
+      "meshNames": [
+        "A10a__Nave_Clerestory_Window_-1_111__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A10b",
+      "name": "尖拱窗宽款",
+      "category": "Architecture",
+      "sourceInstance": "A10b__Nave_Inner_Window_-1_111",
+      "meshNames": [
+        "A10b__Nave_Inner_Window_-1_111__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A11",
+      "name": "拱廊开间",
+      "category": "Architecture",
+      "sourceInstance": "A11__Cloister_Transverse_-10",
+      "meshNames": [
+        "A11__Cloister_Transverse_-10__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A12",
+      "name": "檐口腰线",
+      "category": "Architecture",
+      "sourceInstance": "A12__Facade_Upper_Cornice_module_02",
+      "meshNames": [
+        "A12__Facade_Upper_Cornice_module_02__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A13",
+      "name": "山墙",
+      "category": "Architecture",
+      "sourceInstance": "A13__Transept_Gable_Stone_-1",
+      "meshNames": [
+        "A13__Transept_Gable_Stone_-1__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A14",
+      "name": "双坡屋面",
+      "category": "Architecture",
+      "sourceInstance": "A14__Bailey_West_Wing_Roof",
+      "meshNames": [
+        "A14__Bailey_West_Wing_Roof__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A15",
+      "name": "贴墙扶壁",
+      "category": "Architecture",
+      "sourceInstance": "A15__Garden_East_Buttress_37",
+      "meshNames": [
+        "A15__Garden_East_Buttress_37__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A16",
+      "name": "室内石柱",
+      "category": "Architecture",
+      "sourceInstance": "A16__Interior_Column_-13_113",
+      "meshNames": [
+        "A16__Interior_Column_-13_113__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A17",
+      "name": "普通肋拱",
+      "category": "Architecture",
+      "sourceInstance": "A17__Chapel_Inner_Rib_45",
+      "meshNames": [
+        "A17__Chapel_Inner_Rib_45__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A18",
+      "name": "封闭木门",
+      "category": "Architecture",
+      "sourceInstance": "A18__Old_Road_Closed_Gate",
+      "meshNames": [
+        "A18__Old_Road_Closed_Gate__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A19",
+      "name": "小型尖顶塔楼",
+      "category": "Architecture",
+      "sourceInstance": "A19__Gate_Tower_-22",
+      "meshNames": [
+        "A19__Gate_Tower_-22__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B01",
+      "name": "Boss钟塔组件",
+      "category": "Architecture",
+      "sourceInstance": "B01__East_Gate_Bell_Tower",
+      "meshNames": [
+        "B01__East_Gate_Bell_Tower__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B02",
+      "name": "中央铁冠尖塔",
+      "category": "Architecture",
+      "sourceInstance": "B02__Central_Crown",
+      "meshNames": [
+        "B02__Central_Crown__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B03",
+      "name": "深层主入口",
+      "category": "Architecture",
+      "sourceInstance": "B03__Great_Entrance",
+      "meshNames": [
+        "B03__Great_Entrance__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B04",
+      "name": "哥特玫瑰窗",
+      "category": "Architecture",
+      "sourceInstance": "B04__Transept_Rose_1",
+      "meshNames": [
+        "B04__Transept_Rose_1__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B05",
+      "name": "飞扶壁组件",
+      "category": "Architecture",
+      "sourceInstance": "B05__Flying_Buttress_-1_107",
+      "meshNames": [
+        "B05__Flying_Buttress_-1_107__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B06",
+      "name": "主殿与翼厅屋面交接件",
+      "category": "Architecture",
+      "sourceInstance": "B06__Nave_Transept_Junction",
+      "meshNames": [
+        "B06__Nave_Transept_Junction__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B07",
+      "name": "多边形后殿壳体",
+      "category": "Architecture",
+      "sourceInstance": "B07__Polygonal_Throne_Apse",
+      "meshNames": [
+        "B07__Polygonal_Throne_Apse__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "B08",
+      "name": "大殿肋拱穹顶开间",
+      "category": "Architecture",
+      "sourceInstance": "B08__Nave_Vault_Bay_105",
+      "meshNames": [
+        "B08__Nave_Vault_Bay_105__0",
+        "B08__Nave_Vault_Bay_105__1",
+        "B08__Nave_Vault_Bay_105__2",
+        "B08__Nave_Vault_Bay_105__3",
+        "B08__Nave_Vault_Bay_105__4"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C01",
+      "name": "直跑石阶",
+      "category": "Infrastructure",
+      "sourceInstance": "C01__Route_4_Step_0_art_tread",
+      "meshNames": [
+        "C01__Route_4_Step_0_art_tread__0"
+      ],
+      "note": "当前场景的踏步适配尺寸；整段楼梯需要重复布置并配置碰撞。"
+    },
+    {
+      "id": "C02",
+      "name": "转折平台与台基",
+      "category": "Infrastructure",
+      "sourceInstance": "C02__Upper_Outlook_Paving",
+      "meshNames": [
+        "C02__Upper_Outlook_Paving__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C03",
+      "name": "山脚石拱桥跨",
+      "category": "Infrastructure",
+      "sourceInstance": "C03__Causeway_Vault_5",
+      "meshNames": [
+        "C03__Causeway_Vault_5__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C04",
+      "name": "上城石拱桥跨",
+      "category": "Infrastructure",
+      "sourceInstance": "C04__Skybridge_Gothic_Vault_28",
+      "meshNames": [
+        "C04__Skybridge_Gothic_Vault_28__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C05",
+      "name": "桥墩及支撑墩柱",
+      "category": "Infrastructure",
+      "sourceInstance": "C05__Skybridge_Gothic_Vault_29_bearing_1_0_0",
+      "meshNames": [
+        "C05__Skybridge_Gothic_Vault_29_bearing_1_0_0__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C06",
+      "name": "墩帽",
+      "category": "Infrastructure",
+      "sourceInstance": "C06__Bridge_Pier_Capital_31_piece_0",
+      "meshNames": [
+        "C06__Bridge_Pier_Capital_31_piece_0__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C07",
+      "name": "矩形石砌基础",
+      "category": "Infrastructure",
+      "sourceInstance": "C07__Foundation__Court_Paving_masonry_0_0_0_1",
+      "meshNames": [
+        "C07__Foundation__Court_Paving_masonry_0_0_0_1__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C08",
+      "name": "八角塔基",
+      "category": "Infrastructure",
+      "sourceInstance": "C08__Foundation__Gate_Tower_Base_-22_tier_2",
+      "meshNames": [
+        "C08__Foundation__Gate_Tower_Base_-22_tier_2__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "C09",
+      "name": "挡土墙",
+      "category": "Infrastructure",
+      "sourceInstance": "C09__Upper_Landing_Retaining_-1_0",
+      "meshNames": [
+        "C09__Upper_Landing_Retaining_-1_0__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D01",
+      "name": "户外立灯",
+      "category": "Architecture",
+      "sourceInstance": "D01__Ascent_Lamp_10",
+      "meshNames": [
+        "D01__Ascent_Lamp_10__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D02",
+      "name": "战斗灯具",
+      "category": "Architecture",
+      "sourceInstance": "D02__Six_Combat_Lantern_-14.7_117",
+      "meshNames": [
+        "D02__Six_Combat_Lantern_-14.7_117__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D03",
+      "name": "礼拜堂烛台",
+      "category": "Architecture",
+      "sourceInstance": "D03__Chapel_Candle_-103_32",
+      "meshNames": [
+        "D03__Chapel_Candle_-103_32__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D04",
+      "name": "石井",
+      "category": "Architecture",
+      "sourceInstance": "D04__Court_Well",
+      "meshNames": [
+        "D04__Court_Well__0",
+        "D04_Local_Water_Surface"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D05",
+      "name": "纪念水池池沿",
+      "category": "Architecture",
+      "sourceInstance": "D05__Sunken_Pool",
+      "meshNames": [
+        "D05__Sunken_Pool__0",
+        "D05_Local_Water_Surface"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D06",
+      "name": "普通圣像",
+      "category": "Architecture",
+      "sourceInstance": "D06__Chapel_Saint",
+      "meshNames": [
+        "D06__Chapel_Saint__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D07",
+      "name": "庭院主纪念像",
+      "category": "Architecture",
+      "sourceInstance": "D07__Memorial_Saint",
+      "meshNames": [
+        "D07__Memorial_Saint__0",
+        "D07_Local_Basin_Plinth"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D08",
+      "name": "门前守卫像",
+      "category": "Architecture",
+      "sourceInstance": "D08__Portal_Sentinel_-12",
+      "meshNames": [
+        "D08__Portal_Sentinel_-12__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D09",
+      "name": "祭坛",
+      "category": "Architecture",
+      "sourceInstance": "D09__Chapel_Altar",
+      "meshNames": [
+        "D09__Chapel_Altar__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D10",
+      "name": "木制长椅",
+      "category": "Architecture",
+      "sourceInstance": "D10__Chapel_Pew_37",
+      "meshNames": [
+        "D10__Chapel_Pew_37__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D11",
+      "name": "王座与华盖",
+      "category": "Architecture",
+      "sourceInstance": "D11__Throne_Assembly",
+      "meshNames": [
+        "D11__Throne_Assembly__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D12",
+      "name": "封印装置",
+      "category": "Architecture",
+      "sourceInstance": "D12__Final_Seal",
+      "meshNames": [
+        "D12__Final_Seal__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "D13",
+      "name": "铁冠吊灯",
+      "category": "Architecture",
+      "sourceInstance": "D13__Crown_Chandelier",
+      "meshNames": [
+        "D13__Crown_Chandelier__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E01a",
+      "name": "直立岩壁",
+      "category": "Rocks",
+      "sourceInstance": "E01a__Chapel_Rock_Wall_6_1_0",
+      "meshNames": [
+        "E01a__Chapel_Rock_Wall_6_1_0__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E01b",
+      "name": "转角岩壁",
+      "category": "Rocks",
+      "sourceInstance": "E01b__Arrival_Ridge_Corner_2",
+      "meshNames": [
+        "E01b__Arrival_Ridge_Corner_2__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E01c",
+      "name": "崖顶过渡岩体",
+      "category": "Rocks",
+      "sourceInstance": "E01c__Arrival_Ridge_Crest_8_0",
+      "meshNames": [
+        "E01c__Arrival_Ridge_Crest_8_0__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E02a",
+      "name": "高瘦冷杉",
+      "category": "Trees",
+      "sourceInstance": "E02a__Arrival_Fir_-35",
+      "meshNames": [
+        "E02a__Arrival_Fir_-35__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E02b",
+      "name": "宽冠冷杉",
+      "category": "Trees",
+      "sourceInstance": "E02b__Arrival_Fir_-24",
+      "meshNames": [
+        "E02b__Arrival_Fir_-24__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E03",
+      "name": "庭院柏树",
+      "category": "Trees",
+      "sourceInstance": "E03__Garden_Cypress_-16",
+      "meshNames": [
+        "E03__Garden_Cypress_-16__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E04a",
+      "name": "远景主峰",
+      "category": "Distant",
+      "sourceInstance": "E04a__Far_Ridge_1_11",
+      "meshNames": [
+        "E04a__Far_Ridge_1_11__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E04b",
+      "name": "远景长脊",
+      "category": "Distant",
+      "sourceInstance": "E04b__Far_Ridge_1_9",
+      "meshNames": [
+        "E04b__Far_Ridge_1_9__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E04c",
+      "name": "远景山口",
+      "category": "Distant",
+      "sourceInstance": "E04c__Far_Ridge_2_21",
+      "meshNames": [
+        "E04c__Far_Ridge_2_21__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E05a",
+      "name": "普通村屋",
+      "category": "Distant",
+      "sourceInstance": "E05a__Village_House_12",
+      "meshNames": [
+        "E05a__Village_House_12__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E05b",
+      "name": "窄高村屋",
+      "category": "Distant",
+      "sourceInstance": "E05b__Village_House_1",
+      "meshNames": [
+        "E05b__Village_House_1__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "E05c",
+      "name": "长屋",
+      "category": "Distant",
+      "sourceInstance": "E05c__Village_House_2",
+      "meshNames": [
+        "E05c__Village_House_2__0"
+      ],
+      "note": ""
+    },
+    {
+      "id": "A07_Start",
+      "name": "平地栏杆_起始半柱",
+      "category": "Architecture",
+      "sourceInstance": "A07__Upper_Outlook_East_first_halfpost",
+      "meshNames": [
+        "A07__Upper_Outlook_East_first_halfpost__0",
+        "A07__Upper_Outlook_East_first_halfpost__1"
+      ],
+      "note": "现有拼接用裁切变体。"
+    },
+    {
+      "id": "A07_End",
+      "name": "平地栏杆_末端半柱",
+      "category": "Architecture",
+      "sourceInstance": "A07__Upper_Outlook_East_last_halfpost",
+      "meshNames": [
+        "A07__Upper_Outlook_East_last_halfpost__0",
+        "A07__Upper_Outlook_East_last_halfpost__1"
+      ],
+      "note": "现有拼接用裁切变体。"
+    },
+    {
+      "id": "A08_Start",
+      "name": "阶梯坡栏_起始半柱",
+      "category": "Architecture",
+      "sourceInstance": "A08__Edge_21_-1_first_halfpost",
+      "meshNames": [
+        "A08__Edge_21_-1_first_halfpost__0"
+      ],
+      "note": "现有拼接用裁切变体。"
+    },
+    {
+      "id": "A08_End",
+      "name": "阶梯坡栏_末端半柱",
+      "category": "Architecture",
+      "sourceInstance": "A08__Edge_21_-1_last_halfpost",
+      "meshNames": [
+        "A08__Edge_21_-1_last_halfpost__0"
+      ],
+      "note": "现有拼接用裁切变体。"
+    }
+  ]
+}

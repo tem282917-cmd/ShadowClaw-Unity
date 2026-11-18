@@ -1,0 +1,18 @@
+ENVIRONMENT DYNAMICS - FIRST BATCH (2026-11-18)
+
+Wind whoosh loop - SketchMan3
+https://opengameart.org/content/wind-whoosh-loop
+License: CC0 1.0. Original OGG unmodified.
+Derived by its author from Loopable Dungeon Ambience - smartart2 (CC0):
+https://opengameart.org/content/loopable-dungeon-ambience
+SHA256: 0cfdbd3f21ed449689a9024264edf267d0037a6495813a7010827672ec191dac
+
+Ground Fog - GPU Fog Particles, Mirza Beig
+https://github.com/MirzaBeig/GPU-Fog-Particles
+License: Unlicense. Existing project prefab/material/shader reused.
+
+vfx_Smoke_01 - Free Quick Effects Vol.1, Gabriel Aguiar Prod
+https://www.patreon.com/posts/free-quick-vol-1-117366219
+https://assetstore.unity.com/packages/vfx/particles/free-quick-effects-vol-1-304424
+Existing licensed project import reused. Runtime low-density particle settings only;
+no original source shader/material/texture overwritten.

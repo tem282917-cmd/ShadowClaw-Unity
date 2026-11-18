@@ -1,0 +1,403 @@
+{
+  "files": {
+    "Materials/Circle01_AB.mat": {
+      "member": "65700cbb3b887cd4e9ba3c6960267cb1/asset",
+      "sha256": "3501f826a7dcd701ed89e628d08cfab6493efb19cb05dc850e425b58c06528bf"
+    },
+    "Materials/Circle01_AB.mat.meta": {
+      "member": "65700cbb3b887cd4e9ba3c6960267cb1/asset.meta",
+      "sha256": "dfda44eaf3dea25782f05b60e7514880fc6980cd6b95089b4205fe7529d70f8b"
+    },
+    "Materials/Circle01_AB_2.mat": {
+      "member": "a11275e0ac9b67c49b1f1d2ebd643928/asset",
+      "sha256": "2dcf02ec607382faf7c8b30cff16b5a94601694d886fc86873761ca68a74cdf6"
+    },
+    "Materials/Circle01_AB_2.mat.meta": {
+      "member": "a11275e0ac9b67c49b1f1d2ebd643928/asset.meta",
+      "sha256": "67350df421e2259a2e5725650ae5e1d524b6e9881349a7720621e943377d174e"
+    },
+    "Materials/DistortedFlare01_AB.mat": {
+      "member": "421e78f4ac395ed4d9d82e67feda29e0/asset",
+      "sha256": "14201b74511917a9f4c6d4cebe2f064d9f2d048976f9b62e1eb8f7a3b6fcc660"
+    },
+    "Materials/DistortedFlare01_AB.mat.meta": {
+      "member": "421e78f4ac395ed4d9d82e67feda29e0/asset.meta",
+      "sha256": "b99b5b45e99d71a9a25ea3e695015af169f31bf40b29ef37f7ebe79d78e9b7ea"
+    },
+    "Materials/DistortedFlare01_AB_2.mat": {
+      "member": "f89acd7b19d225944b4fbf35c6271641/asset",
+      "sha256": "0f8f4eb8db35c1dfe60bc812389a84652ab171b7f3211e23143c5291886e7760"
+    },
+    "Materials/DistortedFlare01_AB_2.mat.meta": {
+      "member": "f89acd7b19d225944b4fbf35c6271641/asset.meta",
+      "sha256": "6819cde01a7d99bd24198f6f664df78c996164ad561fd7c6549a1c0ad503e2ab"
+    },
+    "Materials/Flame02_AB.mat": {
+      "member": "ac7c08f2b664f2b428189ab78163b269/asset",
+      "sha256": "ca3067b80ed04b9d606fd06b1393c1192b9d18d3f326c0ca2c3fb908070ebe0b"
+    },
+    "Materials/Flame02_AB.mat.meta": {
+      "member": "ac7c08f2b664f2b428189ab78163b269/asset.meta",
+      "sha256": "1521b4532cbce850b01c27b4fc98e3d5ee96460e0859583f47dc075d158cd407"
+    },
+    "Materials/Flame02_AB_2.mat": {
+      "member": "6adc3f36cf95a8a41b4887cd0350238b/asset",
+      "sha256": "f84dbff7c38b5d09f9ecfeabffde77f83d66545c06448f0b2fc7c0f1bbc5916d"
+    },
+    "Materials/Flame02_AB_2.mat.meta": {
+      "member": "6adc3f36cf95a8a41b4887cd0350238b/asset.meta",
+      "sha256": "e1d9d2b8a5239e3301e7495ef9e906a3b05e5268dc3c057930b403a804e70eea"
+    },
+    "Materials/Flare00_AB.mat": {
+      "member": "d66b59252470e8d40b75b0c55fd804c9/asset",
+      "sha256": "fe166b3abe4dff25a3a8f6c6382870114f3cfaa435e55815d1f952e7d5b4abca"
+    },
+    "Materials/Flare00_AB.mat.meta": {
+      "member": "d66b59252470e8d40b75b0c55fd804c9/asset.meta",
+      "sha256": "8e738b857903cf449281a45f88efeb20059b8cbc5825def239d851a8f1d27bef"
+    },
+    "Materials/Flare00_AB_2.mat": {
+      "member": "0153253dee1c55945abc95d9be9e19df/asset",
+      "sha256": "4b2ee75efec5a06e976fe1ce34242780b88b8909c9f0d905f07a1aae1749f9b8"
+    },
+    "Materials/Flare00_AB_2.mat.meta": {
+      "member": "0153253dee1c55945abc95d9be9e19df/asset.meta",
+      "sha256": "da58cf96c34e775d6d1b568d89e5665b655247a9f601b7a6379c0427e8e54e2b"
+    },
+    "Materials/Scene/Ground.mat": {
+      "member": "a8cf2a543d416384ea667f7eeda74ef5/asset",
+      "sha256": "f879609e1627806b19d513e8d865cd64bde637ce338d09bd2fe826d0da9ce763"
+    },
+    "Materials/Scene/Ground.mat.meta": {
+      "member": "a8cf2a543d416384ea667f7eeda74ef5/asset.meta",
+      "sha256": "ca82a65d6d0edbdf6c72efb16a974b901631ee516ca4e29e469ff6e18ccbb159"
+    },
+    "Materials/Scene/Sky.mat": {
+      "member": "28bdf5580579db141aab2df149908772/asset",
+      "sha256": "40e42ac1d0428bd96b25d2bdc80317c876cf53861255df2ab2a61ba61fce5e90"
+    },
+    "Materials/Scene/Sky.mat.meta": {
+      "member": "28bdf5580579db141aab2df149908772/asset.meta",
+      "sha256": "8f97ce2438ebd69402dedd7cb71c9733800aa6fffbe41d1e9c8fb69981636429"
+    },
+    "Materials/Swirl01_AB.mat": {
+      "member": "9dfe6cb2a56b1d042bfcf083da865616/asset",
+      "sha256": "214c90561155733bff87b01c2b9e8d773e54eaeb7220cdbd62a843beed9de6cc"
+    },
+    "Materials/Swirl01_AB.mat.meta": {
+      "member": "9dfe6cb2a56b1d042bfcf083da865616/asset.meta",
+      "sha256": "a9ac6097fbad63a5cbc3ae8d9e249e5b761a7f1ed7e36158264c6d17ad026c0f"
+    },
+    "Materials/Swirl01_AB_2.mat": {
+      "member": "a90f663dbd3114d4dae0a1b78c3419c1/asset",
+      "sha256": "c3cb94f43262052eedd294c4db19eeff1193e7886a1ce723f837d3952695792e"
+    },
+    "Materials/Swirl01_AB_2.mat.meta": {
+      "member": "a90f663dbd3114d4dae0a1b78c3419c1/asset.meta",
+      "sha256": "abab16c1acea6f7aefbd415a20a29943f3191f30f08e434333acbfe424d0f257"
+    },
+    "Models/Mountains01.fbx": {
+      "member": "7d7b1b4c62dbbe4459d4b39b1e805e83/asset",
+      "sha256": "84fb90a7bee45d59e3774cc40fd89558a940e8caf9b47652b9b2f83626dbf316"
+    },
+    "Models/Mountains01.fbx.meta": {
+      "member": "7d7b1b4c62dbbe4459d4b39b1e805e83/asset.meta",
+      "sha256": "71cea383d3b7241ff036a47ccfd680e3afaae3e206747912222f581f18e4da54"
+    },
+    "Prefabs/vfx_Electricity_01.prefab": {
+      "member": "68101499d07aced4aa0ded4acb624942/asset",
+      "sha256": "694410a4d81096927e27acff5f7db9ac8da3492fa5fbc4e1f592b709590a9b0e"
+    },
+    "Prefabs/vfx_Electricity_01.prefab.meta": {
+      "member": "68101499d07aced4aa0ded4acb624942/asset.meta",
+      "sha256": "80286f278370a353ef58bcbf1fa35b63e71ef3a7e51bfbc455023fc3231f3e8c"
+    },
+    "Prefabs/vfx_Explosion_01.prefab": {
+      "member": "cf82839c411151342a7b2337bda9fb34/asset",
+      "sha256": "7b24d17cefab51ec861f543e87864fe7dd20e3a14abebf0c3cc50ae76bd74070"
+    },
+    "Prefabs/vfx_Explosion_01.prefab.meta": {
+      "member": "cf82839c411151342a7b2337bda9fb34/asset.meta",
+      "sha256": "55f6dff964842ae233271d8129ac929632d64369504329d81ecbc172e819a1d9"
+    },
+    "Prefabs/vfx_Explosion_02.prefab": {
+      "member": "83ad694f134ab954580473212156b35a/asset",
+      "sha256": "62deaf14908963813510e97b1d8ed563d97992d73632ed2f4670a4020d9e3ad1"
+    },
+    "Prefabs/vfx_Explosion_02.prefab.meta": {
+      "member": "83ad694f134ab954580473212156b35a/asset.meta",
+      "sha256": "85fc15c2758759d8514dc8a5f6a2db2b14fc2c949745e4e1b4bf8347205ca4d1"
+    },
+    "Prefabs/vfx_Flames_01.prefab": {
+      "member": "8fa5143051527e949b0ae174c8430414/asset",
+      "sha256": "e1941f5f8f0ed53060406ca1ec40170d6de18d3754eee179a3d13f8bfe198561"
+    },
+    "Prefabs/vfx_Flames_01.prefab.meta": {
+      "member": "8fa5143051527e949b0ae174c8430414/asset.meta",
+      "sha256": "722ae97a5b60aad47bc35549bc113696b0ba1531f822e26193357e48e96b616b"
+    },
+    "Prefabs/vfx_Flamethrower_01.prefab": {
+      "member": "366377810aaf4fc4ab2be725a54c5712/asset",
+      "sha256": "8b44a581dab635330fcea84128ad22ef388ded9b5f081bbb49f36926a15533ed"
+    },
+    "Prefabs/vfx_Flamethrower_01.prefab.meta": {
+      "member": "366377810aaf4fc4ab2be725a54c5712/asset.meta",
+      "sha256": "f8f191e3f290d576f975d41d9f12fbc5a6ff02785758250d2fc781e58b7cdd55"
+    },
+    "Prefabs/vfx_Flamethrower_02.prefab": {
+      "member": "856f1f18fb8861d4499813c38a5963ae/asset",
+      "sha256": "59cea413c31d011a401b84fced55dc0a76c114b769c663951f7e2bedbb0b0ae4"
+    },
+    "Prefabs/vfx_Flamethrower_02.prefab.meta": {
+      "member": "856f1f18fb8861d4499813c38a5963ae/asset.meta",
+      "sha256": "b6e81e620d8f8884cee7da6ff93972f0a72e9d72660ea956cfa12e4e129616c9"
+    },
+    "Prefabs/vfx_Heal_01.prefab": {
+      "member": "108ca465382c11742bd2c91fe4fdb13f/asset",
+      "sha256": "6f21510b51b6e316fe46661ff93f601e91d6c373d267765e88f7c06919ec3bfa"
+    },
+    "Prefabs/vfx_Heal_01.prefab.meta": {
+      "member": "108ca465382c11742bd2c91fe4fdb13f/asset.meta",
+      "sha256": "7bb41d673cb0184d11b02a9deff82cc6be0e30adee2e7dbf1f0dd9f89c1a7e57"
+    },
+    "Prefabs/vfx_Heal_02.prefab": {
+      "member": "b21d155ec7ea5a349a0e36106f913148/asset",
+      "sha256": "146a6dbbf22dde2d0d07b88c36d626dab678c06333d5ad1fecc24cbb14867623"
+    },
+    "Prefabs/vfx_Heal_02.prefab.meta": {
+      "member": "b21d155ec7ea5a349a0e36106f913148/asset.meta",
+      "sha256": "e63e65ee0ce36116f730d046bcbd43f29c42cd95b5cc8107753f0020e786d6ef"
+    },
+    "Prefabs/vfx_Hyperdrive_01.prefab": {
+      "member": "ee71d8dfb36a7b048aef24b0bc8f9764/asset",
+      "sha256": "67197e51fb8f0000e9c067838965f09dd944bda09eca393e242a2f25040bacf0"
+    },
+    "Prefabs/vfx_Hyperdrive_01.prefab.meta": {
+      "member": "ee71d8dfb36a7b048aef24b0bc8f9764/asset.meta",
+      "sha256": "f0684c27f8fa16dc3407f584c264f0e76a85021e83f37032572f5d0813568902"
+    },
+    "Prefabs/vfx_Impact_01.prefab": {
+      "member": "f78aaaec3b393e24ca74cd6de8194347/asset",
+      "sha256": "35784543fa0b10a86f8b10828a1c9e7dd6fdd5993b429c80f08e80cc46c9a4a5"
+    },
+    "Prefabs/vfx_Impact_01.prefab.meta": {
+      "member": "f78aaaec3b393e24ca74cd6de8194347/asset.meta",
+      "sha256": "d94e4cb4c37d922aa0f24fb7f19e6a18eb11c0796ab6040fb9b833ad9879a137"
+    },
+    "Prefabs/vfx_Implosion_01.prefab": {
+      "member": "0f3d407feb92ebb49b98d0157de5008a/asset",
+      "sha256": "10adf760326ad1a867e1666fd74dea254d810d4b36d4d687a901d576135e0cae"
+    },
+    "Prefabs/vfx_Implosion_01.prefab.meta": {
+      "member": "0f3d407feb92ebb49b98d0157de5008a/asset.meta",
+      "sha256": "db73f0718d63bc1f719dc4628b2620904db4ffd01cc9bcbc98d7490c72eba22c"
+    },
+    "Prefabs/vfx_Lightning_01.prefab": {
+      "member": "e84c40719cee66744925cce01bef28fc/asset",
+      "sha256": "0efa8e8961e3cf4fd1042c78c384047629c4f344fa2c0c3a80023c7c5203f22e"
+    },
+    "Prefabs/vfx_Lightning_01.prefab.meta": {
+      "member": "e84c40719cee66744925cce01bef28fc/asset.meta",
+      "sha256": "9f5852d73827d4d91f2df14f03867cc945c8eb1021875ee52d1c5dc96bd15ffe"
+    },
+    "Prefabs/vfx_Lightning_02.prefab": {
+      "member": "c50f9e2c685970e4c8ebcd5fc8c7b3e4/asset",
+      "sha256": "3d39bacb9ed8487ec044534ec46cf2643e04be745b01accd3fd425efbfe2cdcd"
+    },
+    "Prefabs/vfx_Lightning_02.prefab.meta": {
+      "member": "c50f9e2c685970e4c8ebcd5fc8c7b3e4/asset.meta",
+      "sha256": "221678eab29bdf0c180d82c738593a138759ad19a85cdb58a6955e14572398f7"
+    },
+    "Prefabs/vfx_LootDrop_01.prefab": {
+      "member": "7d39067bead4bc14aa0b451564aa5198/asset",
+      "sha256": "f46b98ede1b267ea9fce692d69220fdfb6bfb2c69f244a874e513c25add588de"
+    },
+    "Prefabs/vfx_LootDrop_01.prefab.meta": {
+      "member": "7d39067bead4bc14aa0b451564aa5198/asset.meta",
+      "sha256": "e82eb733a48c97e30a2adc4a2f0a0c06098edeabc5ee85a86b9e4bf39c44215c"
+    },
+    "Prefabs/vfx_LootDrop_02.prefab": {
+      "member": "e953460ff16e0a6459684f9b77202b5c/asset",
+      "sha256": "154f89bdf84d4c48d3ccaf9069389d27ddd19573c8420e0ad22681f415411c06"
+    },
+    "Prefabs/vfx_LootDrop_02.prefab.meta": {
+      "member": "e953460ff16e0a6459684f9b77202b5c/asset.meta",
+      "sha256": "9704457bd9d7660b35af2f7ef2157218bc10bc5a27c3e970d1da955ebbe7841c"
+    },
+    "Prefabs/vfx_MeteorRain_01.prefab": {
+      "member": "ae9bdcaa1a8496449b1068fd7844906c/asset",
+      "sha256": "9ea60d6424cc27ff7769af3090ac77b6205b04385a902fd89f5cbbeddb42482e"
+    },
+    "Prefabs/vfx_MeteorRain_01.prefab.meta": {
+      "member": "ae9bdcaa1a8496449b1068fd7844906c/asset.meta",
+      "sha256": "63000718fa34384a11882c407fe72cdcc59caa244b441c34742d5d04660265ed"
+    },
+    "Prefabs/vfx_MeteorRain_02.prefab": {
+      "member": "8a474c5401202784ab11371270ef4e33/asset",
+      "sha256": "277730a9dad4c9db9b437924568e461dd5f13490f3e07963441d99656cfaa1a4"
+    },
+    "Prefabs/vfx_MeteorRain_02.prefab.meta": {
+      "member": "8a474c5401202784ab11371270ef4e33/asset.meta",
+      "sha256": "4cf82ae10712fc9ace38e9d36ab4f58cf4bb2b72425af180dd3b015220feddef"
+    },
+    "Prefabs/vfx_MuzzleFlash_01.prefab": {
+      "member": "1f58a1dea6bbd9347843e4935585e6a2/asset",
+      "sha256": "2ddb8b8efbd0270e79c2a47e69556656ac24e1d707b7e402916ac153edc95ae2"
+    },
+    "Prefabs/vfx_MuzzleFlash_01.prefab.meta": {
+      "member": "1f58a1dea6bbd9347843e4935585e6a2/asset.meta",
+      "sha256": "f9fa6120bbbfc5b5ca810fb1efbf4883b393393ce056817cff9892443ae48f77"
+    },
+    "Prefabs/vfx_MuzzleFlash_02.prefab": {
+      "member": "4f5fc4bbd01b03a4499a6ed77f175fc7/asset",
+      "sha256": "4b2338bd720da6c0e6c47954a683238e16b1c1677a42b200c30e5884a3841c37"
+    },
+    "Prefabs/vfx_MuzzleFlash_02.prefab.meta": {
+      "member": "4f5fc4bbd01b03a4499a6ed77f175fc7/asset.meta",
+      "sha256": "f648b7df31689714e5f8cd590d2303d49be34850d27a2566caa6ec37ce02cd55"
+    },
+    "Prefabs/vfx_Portal_01.prefab": {
+      "member": "d5774d459f0f43d4591f34994be1404e/asset",
+      "sha256": "a39ed24ec7cdec075193bee74fd86aebaae5a2b9484d8ac4cd1cc4691c4ffe48"
+    },
+    "Prefabs/vfx_Portal_01.prefab.meta": {
+      "member": "d5774d459f0f43d4591f34994be1404e/asset.meta",
+      "sha256": "d18a37aa44599a0e49f07332df499e6badbe307727cf12060daa1be4fe2bd842"
+    },
+    "Prefabs/vfx_Portal_02.prefab": {
+      "member": "31e1448bbc469064e89a752925fc2ea4/asset",
+      "sha256": "37efb2c968072e52641016a9a54035654919ea08567b39c54840d2c11186c614"
+    },
+    "Prefabs/vfx_Portal_02.prefab.meta": {
+      "member": "31e1448bbc469064e89a752925fc2ea4/asset.meta",
+      "sha256": "33705c2302d23b305b8c94b164ba26aae3df9dc758c9dadabec8f63112d16997"
+    },
+    "Prefabs/vfx_Projectile_01.prefab": {
+      "member": "bc142210df3ec4545a4e3e1f21e00da7/asset",
+      "sha256": "da179acad24072cb8bd817c7fde830677f7907e0bc355687bb2f8239913dcabe"
+    },
+    "Prefabs/vfx_Projectile_01.prefab.meta": {
+      "member": "bc142210df3ec4545a4e3e1f21e00da7/asset.meta",
+      "sha256": "db6fb5404937ae05a7ad5b4bb96fe74eeeafbe6b7e6ec803d886f38e03dee00a"
+    },
+    "Prefabs/vfx_Projectile_02.prefab": {
+      "member": "dc33e45a4bb28854c941caca0629dcce/asset",
+      "sha256": "ebd72cdbc1be87c0d9002d816cef494371e4aee7f65786cdb174717ea67bf54d"
+    },
+    "Prefabs/vfx_Projectile_02.prefab.meta": {
+      "member": "dc33e45a4bb28854c941caca0629dcce/asset.meta",
+      "sha256": "eb62d82977106f02dad841b1fb4c01b2674dfcbdc3294a0b3defde6fa34e25a6"
+    },
+    "Prefabs/vfx_Rain_01.prefab": {
+      "member": "1731425cf73de7541b40acd38dba18ec/asset",
+      "sha256": "2ff97733059c67966a95d12d988a644175b592dcc91e7b276b519aa304a008f1"
+    },
+    "Prefabs/vfx_Rain_01.prefab.meta": {
+      "member": "1731425cf73de7541b40acd38dba18ec/asset.meta",
+      "sha256": "61fbb30f20f48c231184acbc4122cef2bb6d8627944dc0219a2d0e49654ff486"
+    },
+    "Prefabs/vfx_Rain_02.prefab": {
+      "member": "6c064513aa7cae142b65066943c8fdbd/asset",
+      "sha256": "8a769b278f9b72f63cfc798b9f9a64e5a5d0306ba58e4017c618d2f495029c44"
+    },
+    "Prefabs/vfx_Rain_02.prefab.meta": {
+      "member": "6c064513aa7cae142b65066943c8fdbd/asset.meta",
+      "sha256": "43e956f728d098ea941d0fff93f27be4cd2bdffb65ce2eb8d70ec8287e3aa0e1"
+    },
+    "Prefabs/vfx_Shield_01.prefab": {
+      "member": "ccf28ea29cf499744ac31bab90073aba/asset",
+      "sha256": "a22950dcc18eb9b770776e3df1556500aaf9f43f952ac1e6450ef7c6ffc03cf7"
+    },
+    "Prefabs/vfx_Shield_01.prefab.meta": {
+      "member": "ccf28ea29cf499744ac31bab90073aba/asset.meta",
+      "sha256": "fe720481d76e25a313678ef1fa4b9edd8060a00af8714aeaa36677c4b648d0ca"
+    },
+    "Prefabs/vfx_Shockwave_01.prefab": {
+      "member": "82066d902ed0dd6488ddfd32eb994801/asset",
+      "sha256": "d08d63887f0a020781dc5abb4f24fa1ac91d7768dcfc1a5964545e64e153c864"
+    },
+    "Prefabs/vfx_Shockwave_01.prefab.meta": {
+      "member": "82066d902ed0dd6488ddfd32eb994801/asset.meta",
+      "sha256": "13c7d7b7cec7d30b0278a5653ba0f5ef9d1457f3f20119d20d677c1e6e43f83b"
+    },
+    "Prefabs/vfx_Smoke_01.prefab": {
+      "member": "57970c6bb711ec24b8d98424b1806f3b/asset",
+      "sha256": "514d6d8b65c087d88a25181c5946a6b3114463f098b718bb9b32b159a1d94707"
+    },
+    "Prefabs/vfx_Smoke_01.prefab.meta": {
+      "member": "57970c6bb711ec24b8d98424b1806f3b/asset.meta",
+      "sha256": "daf6f5bdcda258b962ee5e79969c0ae04128628c69df44e746570f1c0faf8b27"
+    },
+    "Prefabs/vfx_Sparks_01.prefab": {
+      "member": "5a936c83b1746f14f9100db745e94f04/asset",
+      "sha256": "2acab8f920d39eee8d14f0cf4bb777ffdef096427ce161bbe5126e53cc8498ef"
+    },
+    "Prefabs/vfx_Sparks_01.prefab.meta": {
+      "member": "5a936c83b1746f14f9100db745e94f04/asset.meta",
+      "sha256": "4aab54c58b6760f21897a0f4249ff9216a00edb6e993d449d668a35fd7778dcf"
+    },
+    "Prefabs/vfx_Tornado_01.prefab": {
+      "member": "460babe280fe4aa41adc3fefd46f0c0b/asset",
+      "sha256": "5043f1a853d8e1fab0030aa816266344f4f643a303ccecbc630b28cfec1d98b1"
+    },
+    "Prefabs/vfx_Tornado_01.prefab.meta": {
+      "member": "460babe280fe4aa41adc3fefd46f0c0b/asset.meta",
+      "sha256": "42ea9fe28a0e56653a72b0f63b2bf69295cec13b43ef315f36a1a9be2efaa360"
+    },
+    "Textures/Circle01_v1.png": {
+      "member": "d13b9cb06b250314f9e816b4192ef192/asset",
+      "sha256": "91e70159a51e00920a35c895e23142ca1d1d323644969aa44d411f126b684d9b"
+    },
+    "Textures/Circle01_v1.png.meta": {
+      "member": "d13b9cb06b250314f9e816b4192ef192/asset.meta",
+      "sha256": "f5de6777b5ccd6398f9489f97894eed2adc18e4eb7abf3ca90f45f8aae70f966"
+    },
+    "Textures/DistortedFlare01.png": {
+      "member": "045455acf260bb2448a3af663573846c/asset",
+      "sha256": "f770b0163e764822257ce83c726de5e39c3e8fdc50739218298981880753e71c"
+    },
+    "Textures/DistortedFlare01.png.meta": {
+      "member": "045455acf260bb2448a3af663573846c/asset.meta",
+      "sha256": "070e819c5f123d7bbfefc241483e0747292e0a8650532fa6344f0380d628f4b4"
+    },
+    "Textures/Flame02.png": {
+      "member": "bae572b8abde45b49abfe9fb73223b07/asset",
+      "sha256": "d1ab7e3c0b2bd8f14c119b049fbc93b0f09ad4b1bc05f095072323ce17604a1d"
+    },
+    "Textures/Flame02.png.meta": {
+      "member": "bae572b8abde45b49abfe9fb73223b07/asset.meta",
+      "sha256": "241c2997f723f7e56cf5e2a0ace98a849ad4cec9b86e49c7cc44c2321cc62549"
+    },
+    "Textures/Flare00.PNG": {
+      "member": "e8bb5606fef74314e9e5e19aec6b527e/asset",
+      "sha256": "cd95c8842d220d86bc4e0791c13df210def6eefd96a36628165c8cc779ddfaf4"
+    },
+    "Textures/Flare00.PNG.meta": {
+      "member": "e8bb5606fef74314e9e5e19aec6b527e/asset.meta",
+      "sha256": "966628410e9595f44eb78cc6b0345d46e65a4d47b8e53969e7085ef553dd6e2e"
+    },
+    "Textures/Swirl01.png": {
+      "member": "240b8c1374f4dc54cbc8e879bb77cbc0/asset",
+      "sha256": "09ccfcbd222890ea13911aaa3e92a5480df80058fd9d4c2269bdabddf01b7758"
+    },
+    "Textures/Swirl01.png.meta": {
+      "member": "240b8c1374f4dc54cbc8e879bb77cbc0/asset.meta",
+      "sha256": "e1d7b673928fdfd5e146f0ae91eb9828b67c17bad88c05bc475cea61b29549a8"
+    }
+  },
+  "folderMetadata": {
+    "Materials.meta": "fileFormatVersion: 2\nguid: 9c29271ce6276ee489dd28f4faa1a7b4\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n",
+    "Materials/Scene.meta": "fileFormatVersion: 2\nguid: 03b3a5657c83a5f41bb327ed30d69db0\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n",
+    "Models.meta": "fileFormatVersion: 2\nguid: efb7a7856df7bcb4ab408689cd392e3c\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n",
+    "Prefabs.meta": "fileFormatVersion: 2\nguid: 027060ce6e654b74e9257ba3f9f6c3d4\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n",
+    "Textures.meta": "fileFormatVersion: 2\nguid: 3d03de1c7eea5f24da4a4fa006d0e57b\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+  },
+  "materialSuffix": {
+    "Materials/DistortedFlare01_AB.mat": "  m_AllowLocking: 1\n",
+    "Materials/Flame02_AB.mat": "  m_AllowLocking: 1\n",
+    "Materials/Flare00_AB_2.mat": "  m_AllowLocking: 1\n"
+  },
+  "packageSHA256": "620b7054e51f15a39fb4c01f78dbf3a4fdfa1affdf1d2d2acd53a56916173400",
+  "source": "https://www.patreon.com/posts/free-quick-vol-1-117366219",
+  "url": "https://www.patreon.com/file?h=117366219&m=387797091"
+}

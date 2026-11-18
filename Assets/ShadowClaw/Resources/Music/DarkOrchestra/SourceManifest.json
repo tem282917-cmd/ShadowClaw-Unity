@@ -1,0 +1,123 @@
+{
+  "author": "Leonardo Calvo",
+  "license": "CC BY 4.0",
+  "source": "https://thesoundrack.itch.io/dark-orchestra-music-pack",
+  "changes": "Music: Leonardo Calvo \u2014 Dark Orchestra Music Pack\nTracks: Mistery Village; Cursed; Until Death.\nSource: https://thesoundrack.itch.io/dark-orchestra-music-pack\nLicense: Creative Commons Attribution 4.0 International (CC BY 4.0)\nhttps://creativecommons.org/licenses/by/4.0/\n\nAdaptations for Shadow: original aligned instrumental stems were remixed into\nexploration/combat and normal/blackout arrangements. Levels were adjusted and\naudio was converted from 48 kHz 24-bit to 48 kHz 16-bit stereo WAV for Unity import.\nOriginal timing, pitches, and author-provided start/end loop points are retained.\nEach loop edge has a 3 ms continuity correction to remove a sample discontinuity.\nMusic by Leonardo Calvo; no endorsement by the composer is implied.\nThese music assets remain available under CC BY 4.0.\n\nTitle Veil adapts the Piano and Glocken stems from Cursed by Leonardo Calvo.\nThe title arrangement rolls off bass and treble, softens the note attacks,\nand leaves space around the piano with a quiet stereo echo.\n",
+  "assets": [
+    {
+      "asset": "ShadowClaw\\Assets\\ShadowClaw\\Resources\\Music\\DarkOrchestra\\MisteryVillage_Explore.wav",
+      "title": "Mistery Village",
+      "stem_gains": {
+        "Strings": 0.28,
+        "Woodwinds": 1.15,
+        "Horn a4": 0.08
+      },
+      "shared_peak_scale": 1,
+      "sha256": "b3efe57867aebdebd1efc825814678837900a6325601175eec82063ec7f7965a",
+      "frames": 3875887,
+      "sample_rate": 48000,
+      "channels": 2,
+      "seconds": 80.74764583333334,
+      "peak": 0.44390869140625,
+      "rms": 0.0490804577238746,
+      "loop_boundary_max_step": 0.0,
+      "max_internal_sample_step": 0.061920166015625
+    },
+    {
+      "asset": "ShadowClaw\\Assets\\ShadowClaw\\Resources\\Music\\DarkOrchestra\\MisteryVillage_Combat.wav",
+      "title": "Mistery Village",
+      "stem_gains": {
+        "Strings": 0.9,
+        "Woodwinds": 0.95,
+        "Horn a4": 0.9
+      },
+      "shared_peak_scale": 1,
+      "sha256": "0efcd2aa7246b8403dee4764e7089e0455ac8195aed7f8218359a8a34a12a204",
+      "frames": 3875887,
+      "sample_rate": 48000,
+      "channels": 2,
+      "seconds": 80.74764583333334,
+      "peak": 0.796783447265625,
+      "rms": 0.15204789477972036,
+      "loop_boundary_max_step": 0.0,
+      "max_internal_sample_step": 0.061279296875
+    },
+    {
+      "asset": "ShadowClaw\\Assets\\ShadowClaw\\Resources\\Music\\DarkOrchestra\\UntilDeath_Normal.wav",
+      "title": "Until Death",
+      "stem_gains": {
+        "Strings": 0.72,
+        "Horn": 0.82,
+        "Timpani": 0.12,
+        "Tubular Bells": 0.2
+      },
+      "shared_peak_scale": 0.7865160469129399,
+      "sha256": "8b559b442f286be6bc970f13160a92d965b33dfb8462bda5947f13da048860fc",
+      "frames": 4047567,
+      "sample_rate": 48000,
+      "channels": 2,
+      "seconds": 84.3243125,
+      "peak": 0.58251953125,
+      "rms": 0.0921923572378109,
+      "loop_boundary_max_step": 0.0,
+      "max_internal_sample_step": 0.053497314453125
+    },
+    {
+      "asset": "ShadowClaw\\Assets\\ShadowClaw\\Resources\\Music\\DarkOrchestra\\UntilDeath_Blackout.wav",
+      "title": "Until Death",
+      "stem_gains": {
+        "Strings": 0.85,
+        "Horn": 0.55,
+        "Timpani": 1.1,
+        "Tubular Bells": 0.85
+      },
+      "shared_peak_scale": 0.7865160469129399,
+      "sha256": "d2c99ee31f3ebfb4252ebf925f0773d8142073de0510e09e9302ce0d5c0f854a",
+      "frames": 4047567,
+      "sample_rate": 48000,
+      "channels": 2,
+      "seconds": 84.3243125,
+      "peak": 0.819976806640625,
+      "rms": 0.11389167869421583,
+      "loop_boundary_max_step": 0.0,
+      "max_internal_sample_step": 0.0670166015625
+    },
+    {
+      "asset": "ShadowClaw\\Assets\\ShadowClaw\\Resources\\Music\\DarkOrchestra\\Cursed_Guardian.wav",
+      "title": "Cursed",
+      "stem_gains": {
+        "Full mix": 0.82
+      },
+      "shared_peak_scale": 1,
+      "sha256": "7a9e083c5b67982a2ba1564eaad3030ce1977086c3331f7e342dc5f30dd0ee56",
+      "frames": 4642388,
+      "sample_rate": 48000,
+      "channels": 2,
+      "seconds": 96.71641666666666,
+      "peak": 0.730316162109375,
+      "rms": 0.13312638023563927,
+      "loop_boundary_max_step": 0.0,
+      "max_internal_sample_step": 0.076629638671875
+    },
+    {
+      "asset": "ShadowClaw\\Assets\\ShadowClaw\\Resources\\Music\\DarkOrchestra\\Title_Veil.wav",
+      "title": "Title Veil (Cursed)",
+      "stem_gains": {
+        "Piano": 1.0,
+        "Glocken": 1.6
+      },
+      "shared_peak_scale": 0.3273406948788382,
+      "integrated_lufs": -27.5,
+      "true_peak_dbtp": -11.9,
+      "sha256": "b7defcf747ab5593f70d9dba8cf8c20e8e39f3c4409dbdd4f2ddc21205a69d3f",
+      "frames": 4642388,
+      "sample_rate": 48000,
+      "channels": 2,
+      "seconds": 96.71641666666666,
+      "peak": 0.253570556640625,
+      "rms": 0.03239336404369036,
+      "loop_boundary_max_step": 0.0,
+      "max_internal_sample_step": 0.01519775390625
+    }
+  ]
+}
