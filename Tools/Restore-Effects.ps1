@@ -5,7 +5,11 @@ $target = Join-Path $project 'Assets/ShadowClaw/Resources/ImportedVFX/FreeQuickE
 $lock = Get-Content (Join-Path $PSScriptRoot 'effects-lock.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $files = @($lock.files.PSObject.Properties)
 function Matches($file, $hash) {
-    (Test-Path -LiteralPath $file -PathType Leaf) -and ((Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash -eq $hash)
+    if (!(Test-Path -LiteralPath $file -PathType Leaf)) { return $false }
+    $stream = [IO.File]::OpenRead($file)
+    $sha = [Security.Cryptography.SHA256]::Create()
+    try { return [BitConverter]::ToString($sha.ComputeHash($stream)).Replace('-', '') -eq $hash }
+    finally { $sha.Dispose(); $stream.Dispose() }
 }
 $utf8 = New-Object System.Text.UTF8Encoding($false)
 foreach ($folder in $lock.folderMetadata.PSObject.Properties) {
