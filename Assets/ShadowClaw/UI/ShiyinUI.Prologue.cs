@@ -46,7 +46,7 @@ public sealed partial class ShiyinUI {
         } else if(voiceStarted && !revealingMenu) {
             revealingMenu=true;
             prologueCaption.text="";
-            audioFeedback.MusicDirector?.SetTitlePage(true);
+            audioFeedback.MusicDirector?.SetTitlePage(true, startAtMenuVolume: true);
         }
         if(revealingMenu)revealElapsed+=dt;
         float black=1-Mathf.SmoothStep(0,1,revealElapsed/RevealDuration);

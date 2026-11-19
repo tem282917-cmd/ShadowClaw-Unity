@@ -52,30 +52,37 @@ namespace Chapter01.Runtime.Testing
             } catch (Exception failure) {Finish(failure);}
             if (report.result=="FAIL")yield break;
             var openingDeadline=Time.realtimeSinceStartup+35;
-            bool windAlone=false,voiceAndCaption=false,menuRevealed=false;
+            bool windAlone=false,firstLine=false,secondLine=false,menuRevealed=false,musicAtReveal=false;
+            var sound=lab.Eye.GetComponent<ShiyinAudio>();
+            var sources=sound.GetComponents<AudioSource>();
+            var title=sources.SingleOrDefault(s=>s.clip!=null && s.clip.name=="Title_Veil");
+            float priorMusic=lab.UI.Settings.Music;
+            sound.SetLevels(lab.UI.Settings.Effects,.5f);
             var curtain=(CanvasGroup)typeof(ShiyinUI).GetField("prologueCurtain",Member).GetValue(lab.UI);
             var caption=(UnityEngine.UI.Text)typeof(ShiyinUI).GetField("prologueCaption",Member).GetValue(lab.UI);
             var wind=curtain.GetComponent<AudioSource>();
             while(lab.UI.CurrentView=="prologue" && Time.realtimeSinceStartup<openingDeadline) {
                 if(wind.isPlaying && wind.timeSamples>0 && !narrator.Speaking && curtain.alpha==1 && caption.text=="")windAlone=true;
                 if(narrator.CurrentId==FairyTaleNarrator.OpeningId && caption.text==narrator.CurrentSubtitle &&
-                   lab.Eye.GetComponents<AudioSource>().Any(s=>s.clip!=null && s.clip.name==FairyTaleNarrator.OpeningId && s.isPlaying && s.timeSamples>0))
-                    voiceAndCaption=true;
-                if(!narrator.Speaking && curtain.alpha>0 && curtain.alpha<.99f)menuRevealed=true;
+                   caption.color.a>.1f && curtain.alpha==1 && title!=null && !title.isPlaying) {
+                    firstLine |= sources.Any(s=>s.clip!=null && s.clip.name=="01_adventure" && s.isPlaying && s.timeSamples>0);
+                    secondLine |= firstLine && caption.text=="他将走向何方？拭目以待吧。" &&
+                        sources.Any(s=>s.clip!=null && s.clip.name=="01_adventure_02" && s.isPlaying && s.timeSamples>0);
+                }
+                if(!menuRevealed && !narrator.Speaking && curtain.alpha<1) {
+                    menuRevealed=true;
+                    musicAtReveal=title!=null && title.isPlaying && title.volume>.1f;
+                }
                 yield return null;
             }
             try {
-                Check(windAlone && voiceAndCaption && menuRevealed && lab.UI.CurrentView=="menu",
-                    $"opening playback: wind={windAlone}, matching voice and caption={voiceAndCaption}, title fade={menuRevealed}, destination={lab.UI.CurrentView}");
+                Check(windAlone && firstLine && secondLine && musicAtReveal && lab.UI.CurrentView=="menu",
+                    $"opening playback: wind={windAlone}, first line={firstLine}, second line={secondLine}, music at reveal={musicAtReveal}, destination={lab.UI.CurrentView}");
                 narrator.enabled=false;
                 Phase("title");
             } catch(Exception failure){Finish(failure);}
             if(report.result=="FAIL")yield break;
             // Use the real title and settings pages, which deliberately pause the hunt.
-            var sound=lab.Eye.GetComponent<ShiyinAudio>();
-            var title=sound.GetComponents<AudioSource>().SingleOrDefault(s=>s.clip!=null && s.clip.name=="Title_Veil");
-            float priorMusic=lab.UI.Settings.Music;
-            sound.SetLevels(lab.UI.Settings.Effects,.5f);
             float deadline=Time.realtimeSinceStartup+15;
             while(title!=null && (title.timeSamples<2000 || title.volume<.01f) && Time.realtimeSinceStartup<deadline)yield return null;
             try {

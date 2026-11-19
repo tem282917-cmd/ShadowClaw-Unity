@@ -13,6 +13,8 @@ public sealed class IronHallEncounter : MonoBehaviour
     [Tooltip("Walkable surfaces that trigger the courtyard and upper bridge passages of the story.")]
     public Collider CourtyardNarrationFloor, UpperBridgeNarrationFloor;
     public Transform PlayerSpawn, DemonSpawn, MenuView;
+    [Min(1),Tooltip("Return the hunter to PlayerSpawn this many metres below the chapter start.")]
+    public float FallDepthBelowSpawn=12f;
     public Camera GameplayCamera;
     public Collider[] GroundColliders = System.Array.Empty<Collider>();
     public Transform[] WickAnchors = System.Array.Empty<Transform>();

@@ -18,7 +18,7 @@ namespace Chapter01.Runtime.Testing
             var clips = Resources.LoadAll<AudioClip>("Narration/en");
             var approved = new HashSet<string>(StringComparer.Ordinal);
             var recordings = new HashSet<string>(StringComparer.Ordinal);
-            check(cues.Length == 21 && clips.Length == 34, "all 21 events and 34 separately playable lines are packaged in the Player");
+            check(cues.Length == 21 && clips.Length == 35, "all 21 events and 35 separately playable lines are packaged in the Player");
             foreach (var cue in cues)
             {
                 check(approved.Add(cue.id) && !string.IsNullOrWhiteSpace(cue.zh) && !string.IsNullOrWhiteSpace(cue.en),

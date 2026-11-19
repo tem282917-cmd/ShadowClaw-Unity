@@ -472,6 +472,11 @@ public sealed partial class ShadowLab : MonoBehaviour
             if(retryDelay<=0)ResetHunt(true);
             return;
         }
+        if(playerBody!=null && hall.UseAuthoredLayout && hall.PlayerSpawn!=null &&
+           playerBody.transform.position.y<hall.HunterStart.y-hall.FallDepthBelowSpawn) {
+            ReturnFromFall();
+            return;
+        }
         eye.GetComponent<ShiyinAudio>()?.StepCombatEffects(dt);
         TickHolyKnives(dt);
         TickGuardianRelic(dt);
@@ -525,6 +530,29 @@ public sealed partial class ShadowLab : MonoBehaviour
         TickStamina(dt);
         TickPlayerMotion(dt);
         Sync(modelDt: dt); SyncMarks();
+    }
+    void ReturnFromFall() {
+        if(EncounterStarted && hall.StartWithExploration) {
+            EncounterStarted=false;
+            RestoreExterior();
+            hall.FogGate?.SetEncounterState(false,false,false);
+            state.WalkBounds=hall.ExplorationArea;
+            foreach(var shadow in shadows)shadow.Interrupt();
+            ritual=null;
+            boss.LeaveArena();
+            bossEffects.ResetVfx();
+            shadowBurn?.Clear();
+            ResetBossAudio();
+            state.Enemy=PlaceBody(enemyBody,hall.DemonStart);
+        }
+        state.LandAt(PlaceBody(playerBody,hall.HunterStart));
+        yaw=hall.PlayerSpawn.eulerAngles.y;
+        pitch=4;
+        sprinting=false;
+        contactFraction=contactDamage=0;
+        contactSlow=1;
+        ResetPlayerMotion();
+        Sync();
     }
     public void Walk(Vector3 direction,float dt,bool sprint=false) {
         sprinting=false;

@@ -12,6 +12,10 @@ public sealed class ClawState
     float jumpVelocity;
     public float JumpHeight { get; private set; }
     public Vector3 PlayerBody => Player+Vector3.up*JumpHeight;
+    internal void LandAt(Vector3 feet) {
+        Player=feet;
+        JumpHeight=jumpVelocity=stride=Pin=0;
+    }
     public void Jump() {
         if(Pin<=0 && JumpHeight==0 && jumpVelocity==0) jumpVelocity=JumpSpeed;
     }

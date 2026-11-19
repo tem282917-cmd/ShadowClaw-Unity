@@ -2,13 +2,18 @@
   "lines": [
     {
       "id": "01_adventure",
-      "zh": "那一夜，一名猎魔人带着一把银弩，走进了一个还不肯结束的故事。",
-      "en": "That night, a hunter with a silver crossbow stepped into a story that refused to end.",
+      "zh": "那一夜，一名猎魔人带着一把银弩，走进了一个还不肯结束的故事。\n他将走向何方？拭目以待吧。",
+      "en": "That night, a hunter with a silver crossbow stepped into a story that refused to end.\nWhere will the story take him? Let's wait and see.",
       "parts": [
         {
           "clip": "01_adventure",
           "zh": "那一夜，一名猎魔人带着一把银弩，走进了一个还不肯结束的故事。",
           "en": "That night, a hunter with a silver crossbow stepped into a story that refused to end."
+        },
+        {
+          "clip": "01_adventure_02",
+          "zh": "他将走向何方？拭目以待吧。",
+          "en": "Where will the story take him? Let's wait and see."
         }
       ]
     },

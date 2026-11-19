@@ -27,6 +27,11 @@ public sealed partial class HuntBoss
     public const int LampCapacity=6;
     public int LitLamps { get; private set; } = LampCapacity;
     public bool PressingLamp => Action==Move.Ritual && LitLamps<=2;
+    internal void LeaveArena() {
+        CancelGrandAttack();
+        ScarLife=0;
+        Enter(Move.Stalk,1);
+    }
     public bool Pursuing => Action==Move.Pursue || Action==Move.Pounce;
     public const float CounterWindow=2f;
 

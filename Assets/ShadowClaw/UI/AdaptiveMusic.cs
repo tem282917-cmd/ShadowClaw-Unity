@@ -59,6 +59,12 @@ public sealed class AdaptiveMusic : MonoBehaviour
         }
         ValidatePair(0, 1);
         ValidatePair(3, 4);
+        titleSource = gameObject.AddComponent<AudioSource>();
+        titleSource.playOnAwake = false;
+        titleSource.loop = true;
+        titleSource.spatialBlend = 0;
+        titleSource.volume = 0;
+        titleSource.clip = Resources.Load<AudioClip>(ResourceFolder + "Title_Veil");
     }
 
     void ValidatePair(int first, int second)
@@ -74,17 +80,13 @@ public sealed class AdaptiveMusic : MonoBehaviour
     public void SetNarrationDucking(bool value) { speaking = value; }
     public void SetPaused(bool value) { externallyPaused = value; RefreshPause(); }
 
-    public void SetTitlePage(bool active)
+    public void SetTitlePage(bool active, bool startAtMenuVolume = false)
     {
         if (active == onTitle) return;
         onTitle = active;
-        if (active && titleSource == null) {
-            titleSource = gameObject.AddComponent<AudioSource>();
-            titleSource.playOnAwake = false;
-            titleSource.loop = true;
-            titleSource.spatialBlend = 0;
-            titleSource.volume = 0;
-            titleSource.clip = Resources.Load<AudioClip>(ResourceFolder + "Title_Veil");
+        if (active && startAtMenuVolume) {
+            titleFade = 1;
+            UpdateTitle(0);
         }
         if (titleSource != null && titleSource.clip != null) huntFade = 0;
         ApplyVolumes();
